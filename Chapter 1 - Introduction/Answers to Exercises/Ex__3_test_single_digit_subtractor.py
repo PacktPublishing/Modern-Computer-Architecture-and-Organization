@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+"""Tests for answer to chapter 1 exercise 3 (tests for single digit subtractor)."""
+
 import unittest
 import Ex__3_single_digit_subtractor
 

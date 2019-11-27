@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+"""Tests for answer to chapter 1 exercise 1."""
+
 import unittest
 import Ex__1_single_digit_adder
 

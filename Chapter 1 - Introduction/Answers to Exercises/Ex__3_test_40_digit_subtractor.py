@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+"""Tests for answer to chapter 1 exercise 3."""
+
 import unittest
 import Ex__3_40_digit_subtractor
 

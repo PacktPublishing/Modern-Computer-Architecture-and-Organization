@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+"""Answer to chapter 1 exercise 3 (single digit subtractor)."""
+
 import sys
 
 # Perform one step of the Analytical Engine subtraction operation
