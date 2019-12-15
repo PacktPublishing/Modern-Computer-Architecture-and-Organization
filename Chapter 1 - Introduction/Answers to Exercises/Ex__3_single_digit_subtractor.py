@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Answer to chapter 1 exercise 3 (single digit subtractor)."""
+"""Ex__3_single_digit_subtractor.py: Answer to chapter 1 exercise 3 (single digit subtractor)."""
 
 import sys
 

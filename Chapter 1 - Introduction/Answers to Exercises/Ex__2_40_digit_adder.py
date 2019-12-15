@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Answer to chapter 1 exercise 2."""
+"""Ex__2_40_digit_adder.py: Answer to chapter 1 exercise 2."""
 
 import sys
 import Ex__1_single_digit_adder

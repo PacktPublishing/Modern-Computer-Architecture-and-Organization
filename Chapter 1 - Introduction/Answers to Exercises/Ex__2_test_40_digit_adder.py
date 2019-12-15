@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Tests for answer to chapter 1 exercise 2."""
+"""Ex__2_test_40_digit_adder.py: Tests for answer to chapter 1 exercise 2."""
 
 import unittest
 import Ex__2_40_digit_adder
