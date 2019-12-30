@@ -1,3 +1,4 @@
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
 # Chapter 2, Exercise 3
 
 Search the internet for free VHDL development software suites that include a simulator. Get one of these suites, set it up, and build any simple demo projects that come with the suite to ensure it is working properly.
