@@ -1,6 +1,6 @@
 # Modern Computer Architecture and Organization
-_Modern Computer Architecture and Organization_
-by Jim Ledin, PE
+##Modern Computer Architecture and Organization
+by Jim Ledin
 
 Published by Packt
 
