@@ -13,6 +13,8 @@ The listing of the VHDL implementation of a portion of a 6502-like ALU in this c
       V_OUT <= '0';
     end if;
 
+The table below shows the results of this code for the four test cases in the question:
+
 left | right | left(7) | right(7) | result8(7) | V_OUT | Correct?
 ---- | ----- | ------- | -------- | ---------- | ----- | --------
 126 | 1 | 0 | 0 | 0 | 0 | Yes

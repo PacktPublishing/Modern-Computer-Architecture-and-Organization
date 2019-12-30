@@ -1,36 +1,55 @@
-; Ex__4_16_bit_addition.asm
+; Ex__4_checksum_alg.asm
 ; Try running this code at https://skilldrick.github.io/easy6502/
 
-; Set up the values to be added
-; Remove the appropriate semicolons to select the bytes to add:
-; ($0000 + $0001) or ($00FF + $0001) or ($1234 + $5678)
-
-LDA #$00
-;LDA #$FF
-;LDA #$34
+; Set up the array of bytes to be checksummed
+LDA #$01
 STA $00
 
-LDA #$00
-;LDA #$00
-;LDA #$12
+LDA #$72
 STA $01
 
-LDA #$01
-;LDA #$01
-;LDA #$78
+LDA #$93
 STA $02
 
-LDA #$00
-;LDA #$00
-;LDA #$56
+LDA #$F4
 STA $03
 
-; Add the two 16-bit values
-CLC
-LDA $00
-ADC $02
+LDA #$06 ; This is the checksum byte
 STA $04
 
-LDA $01
-ADC $03
-STA $05
+; Store the address of the data array in $10-$11
+LDA #$00
+STA $10
+STA $11
+
+; Store the number of bytes in X
+LDX #5
+
+; Entering the checksum algorithm
+; Move X to Y
+TXA
+TAY
+
+; Compute the checksum
+LDA #$00
+DEY
+
+LOOP:
+CLC
+ADC ($10), Y
+DEY
+BPL LOOP
+
+CMP #$00
+BNE ERROR
+
+; The sum is zero: Checksum is correct
+LDA #1
+JMP DONE
+
+; The sum is nonzero: Checksum is incorrect
+ERROR:
+LDA #0
+
+; A contains 1 if checksum is correct, 0 if it is incorrect
+DONE:
