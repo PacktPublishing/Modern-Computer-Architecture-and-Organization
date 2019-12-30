@@ -8,4 +8,4 @@ Bit 7 is the sign bit. Since overflow can only occur when both operands are of t
 
 When overflow occurs, the sign of the result differs from the sign of the two operands. This means **result(7)** differs from bit 7 of both of the operands.
 
-Therefore, **left(7) XOR result(7)** = 1 and **right(7) XOR result(7)** = 1.
+Therefore, **left(7) XOR result(7)** = 1 and **right(7) XOR result(7)** = 1 whenever overflow occurs.
