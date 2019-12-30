@@ -5,7 +5,7 @@ Create arrays of 40 decimal digits each for the addend, accumulator, and carry. 
 # Answer
 See the python file [Ex__2_40_digit_adder.py](src/Ex__2_40_digit_adder.py) for the adder code.
 
-See the file [Ex__1_test_single_digit_adder.py](src/Ex__2_test_40_digit_adder.py) for the test code.
+See the file [Ex__2_test_40_digit_adder.py](src/Ex__2_test_40_digit_adder.py) for the test code.
 
 To execute the tests, assuming **python** is installed and is in your path, execute the command **python Ex__2_test_40_digit_adder.py**
 
