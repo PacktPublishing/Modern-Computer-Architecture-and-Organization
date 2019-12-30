@@ -9,5 +9,6 @@ When transferring blocks of data over an error-prone transmission medium, it is 
 
 After receiving a data block with the appended checksum, the processor can determine if the checksum is valid by simply adding all the bytes in the record, including the checksum, together. The checksum is valid if the lowest 8 bits of the sum are zero. Implement this checksum algorithm using 6502 assembly language. The data bytes begin at the memory location store in addresses $10-$11 and the number of bytes (including the checksum byte) is provided as an input in the X register. Set the A register to 1 if the checksum is valid, and to 0 if it is invalid.
 
-
 # Answer
+
+See [Ex__4_checksum_alg.asm](src/Ex__4_checksum_alg.asm)
