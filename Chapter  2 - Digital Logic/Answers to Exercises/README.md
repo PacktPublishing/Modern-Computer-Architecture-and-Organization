@@ -1,5 +1,5 @@
-# Modern Computer Architecture and Organization
-## Chapter 2 - Answers to Exercises
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 2 - Answers to Exercises
 
 [Exercise 1](Ex__1_nand_circuit.md)
 

@@ -1,5 +1,5 @@
-# Modern Computer Architecture and Organization
-## Chapter 1 - Introduction
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 1 - Introduction
 
 The architecture of automated computing devices has evolved from mechanical systems constructed nearly two centuries ago to the broad array of modern electronic computing technologies we use directly and indirectly today, every day. Along the way, there have been stretches of incremental technological improvement interspersed with disruptive advances that drastically altered the trajectory of the industry. These trends can be expected to continue into the future.
 In past decades, the 1980s for example, students and technical professionals eager to learn about computing devices had a limited range of subject matter available to them. If they had a computer of their own, it might be an IBM PC or an Apple II. If they worked for an organization with a computing facility, they might have used an IBM mainframe or a Digital Equipment Corporation VAX minicomputer. Those examples, and a limited number of similar systems, encompassed most people’s exposure to computer systems of the time.
@@ -13,7 +13,7 @@ This chapter begins by presenting a few key historical computing devices and the
 * Moore’s law
 * Computer architecture
 
-## Chapter files
+# Chapter files
 
 The following 6502 assembly code snippets appear in Table 1.4:
 
@@ -28,5 +28,5 @@ File | Description
 [add-with-signed-overflow.asm](src/add-with-signed-overflow.asm) | Addition with signed overflow. 
 [subtract-with-signed-underflow.asm](src/subtract-with-signed-underflow.asm) | Subtraction with signed underflow. 
 
-## Answers to Exercises
+# Answers to Exercises
 [Answers to Exercises](Answers%20to%20Exercises/README.md)
