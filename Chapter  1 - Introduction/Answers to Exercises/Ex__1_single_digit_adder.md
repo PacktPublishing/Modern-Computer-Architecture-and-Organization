@@ -9,57 +9,12 @@ See the file [Ex__1_test_single_digit_adder.py](src/Ex__1_test_single_digit_adde
 
 To execute the tests, assuming **python** is installed and is in your path, execute the command **python Ex__1_test_single_digit_adder.py**
 
+This is the output of a test run:
 ```
 C:\>python Ex__1_test_single_digit_adder.py
-
-Input: digit1: 0 digit2: 0
-Result: digit1: 0 digit2: 0 carry: 0
-.
-Input: digit1: 0 digit2: 1
-Result: digit1: 0 digit2: 1 carry: 0
-.
-Input: digit1: 1 digit2: 0
-digit1: 1 digit2: 0 carry: 0
-Result: digit1: 0 digit2: 1 carry: 0
-.
-Input: digit1: 1 digit2: 2
-digit1: 1 digit2: 2 carry: 0
-Result: digit1: 0 digit2: 3 carry: 0
-.
-Input: digit1: 5 digit2: 5
-digit1: 5 digit2: 5 carry: 0
-digit1: 4 digit2: 6 carry: 0
-digit1: 3 digit2: 7 carry: 0
-digit1: 2 digit2: 8 carry: 0
-digit1: 1 digit2: 9 carry: 0
-Result: digit1: 0 digit2: 0 carry: 1
-.
-Input: digit1: 9 digit2: 1
-digit1: 9 digit2: 1 carry: 0
-digit1: 8 digit2: 2 carry: 0
-digit1: 7 digit2: 3 carry: 0
-digit1: 6 digit2: 4 carry: 0
-digit1: 5 digit2: 5 carry: 0
-digit1: 4 digit2: 6 carry: 0
-digit1: 3 digit2: 7 carry: 0
-digit1: 2 digit2: 8 carry: 0
-digit1: 1 digit2: 9 carry: 0
-Result: digit1: 0 digit2: 0 carry: 1
-.
-Input: digit1: 9 digit2: 9
-digit1: 9 digit2: 9 carry: 0
-digit1: 8 digit2: 0 carry: 1
-digit1: 7 digit2: 1 carry: 1
-digit1: 6 digit2: 2 carry: 1
-digit1: 5 digit2: 3 carry: 1
-digit1: 4 digit2: 4 carry: 1
-digit1: 3 digit2: 5 carry: 1
-digit1: 2 digit2: 6 carry: 1
-digit1: 1 digit2: 7 carry: 1
-Result: digit1: 0 digit2: 8 carry: 1
-.
+.......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.036s
+Ran 7 tests in 0.001s
 
 OK
 ```

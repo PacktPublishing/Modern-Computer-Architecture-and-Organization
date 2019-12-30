@@ -19,13 +19,9 @@ def increment_adder(a, b, c):
 # The sum is returned as digit2 and the carry output is 0 or 1.
 def add_digits(digit1, digit2):
     carry = 0
-    print("\nInput: digit1: " + str(digit1) + " digit2: " + str(digit2))
     
     while digit1 > 0:
-        print("digit1: " + str(digit1) + " digit2: " + str(digit2) + " carry: " + str(carry))
         [digit1, digit2, carry] = increment_adder(digit1, digit2, carry)
 
-    print("Result: digit1: " + str(digit1) + " digit2: " + str(digit2) + " carry: " + str(carry))
-    
     return digit2, carry
     

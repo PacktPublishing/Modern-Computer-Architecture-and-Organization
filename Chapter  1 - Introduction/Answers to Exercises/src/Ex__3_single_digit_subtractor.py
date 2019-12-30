@@ -21,13 +21,9 @@ def decrement_subtractor(a, b, c):
 # 0 (borrow) or 1 (not borrow).
 def subtract_digits(digit1, digit2):
     carry = 1
-    print("\nInput: digit1: " + str(digit1) + " digit2: " + str(digit2))
     
     while digit2 > 0:
-        print("digit1: " + str(digit1) + " digit2: " + str(digit2) + " carry: " + str(carry))
         [digit1, digit2, carry] = decrement_subtractor(digit1, digit2, carry)
 
-    print("Result: digit1: " + str(digit1) + " digit2: " + str(digit2) + " carry: " + str(carry))
-    
     return digit1, carry
     
