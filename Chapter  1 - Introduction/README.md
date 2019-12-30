@@ -12,3 +12,19 @@ This chapter begins by presenting a few key historical computing devices and the
 * The Evolution of Automated Computing Devices  
 * Moore’s law
 * Computer architecture
+
+## Chapter files
+
+6502 assembly code snippets in Table 1.4.
+File | Description
+[add-with-no-carry.asm](src/add-with-no-carry.asm) | 8-bit addition with no Carry input.
+[add-with-carry.asm](src/add-with-carry.asm) | 8-bit addition with a Carry input.
+[subtract-with-no-borrow.asm](src/subtract-with-no-borrow.asm) | 8-bit subtraction with no Borrow input. 
+[subtract-with-borrow.asm](src/subtract-with-borrow.asm) | 8-bit subtraction with a Borrow input. 
+[add-with-unsigned-overflow.asm](src/add-with-unsigned-overflow.asm) | Addition with unsigned overflow. 
+[subtract-with-unsigned-underflow.asm](src/subtract-with-unsigned-underflow.asm) | Subtraction with unsigned underflow.
+[add-with-signed-overflow.asm](src/add-with-signed-overflow.asm) | Addition with signed overflow. 
+[subtract-with-signed-underflow.asm](src/subtract-with-signed-underflow.asm) | Subtraction with signed underflow. 
+
+## Answers to Exercises
+[Answers to Exercises](Answers%20to%20Exercises/README.md)

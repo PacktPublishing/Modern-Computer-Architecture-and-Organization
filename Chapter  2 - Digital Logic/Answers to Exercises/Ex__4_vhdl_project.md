@@ -14,6 +14,6 @@ Follow these steps to implement the 4-bit adder:
 6. Click **Finish** to create the project.
 7. Click **Add Sources** in the **Project Manager** panel, select **Add or create design sources**, and add **[Ex__4_adder4.vhdl](src/Ex__4_adder4.vhdl)** and **[Ex__4_fulladder.vhdl](src/Ex__4_fulladder.vhdl)** then click **Finish**.
 8. Expand the tree in the **Design Sources** window in the **Project Manager** dialog and locate the two files you added. Double-click each of them and expand the source code window to view the code.
-9. Click **Run Synthesis** in the **Project Manager** panel. The **Design Runs** panel will update the status as synthesis proceeds. Leave the options in the **Launch Runs** dialog at their defaults and click **OK**.
+9. Click **Run Synthesis** in the **Project Manager** panel. Leave the options in the **Launch Runs** dialog at their defaults and click **OK**. The **Design Runs** panel will update the status as synthesis proceeds.
 10. Wait for the synthesis to complete, then select **View Reports** in the **Synthesis Completed** dialog. Double-click some of the reports produced during the synthesis process. Only the reports that have an icon with a green dot are present.
 11. This completes the exercise. You may close Vivado.
