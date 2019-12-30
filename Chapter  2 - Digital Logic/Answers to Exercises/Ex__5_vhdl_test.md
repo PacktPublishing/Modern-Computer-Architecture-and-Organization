@@ -7,7 +7,7 @@ Follow these steps to test the 4-bit adder project created in Exercise 4:
 
 1. Double-click the **Vivado 2019.2** (or similar) icon to start Vivado.
 2. Click **Open Project** in the Vivado main dialog and open the project you created in Exercise 4. You will need to select the project file name ending in **.xpr**.
-3. Click **Add Sources** in the **Project Manager** panel, select **Add or create simulation sources**, and add **https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter%20%202%20-%20Digital%20Logic/Answers%20to%20Exercises/Ex__5_adder4_testbench.vhdl** then click **Finish**.
+3. Click **Add Sources** in the **Project Manager** panel, select **Add or create simulation sources**, and add **[Ex__5_adder4_testbench.vhdl](Ex__5_adder4_testbench.vhdl)** then click **Finish**.
 4. Expand the tree in the **Simulation Sources** window in the **Project Manager** dialog and locate the file you added. Double-click the file and expand the source code window to view the code. Observe the six test cases present in the code.
 5. Click **Run Simulation** in the Vivado main dialog **Project Manager** section, then select **Run behavioral simulation**.
 6. Wait for the simulation to complete, then expand the windows with the timing diagram (probably labeled **Untitled 1**).
