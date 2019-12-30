@@ -11,3 +11,12 @@ The following topics will be covered in this chapter:
 * Registers and adders
 * Sequential logic
 * Hardware description languages
+
+## Chapter files
+
+[FullAdder.vhdl](src/FullAdder.vhdl) is the VHDL implementation of the full adder circuit shown in Figure 2.15.
+
+[Adder4.vhdl](src/Adder4.vhdl) is the 4-bit adder design presented in Figure 2.16.
+
+## Answers to Exercises
+[Answers to Exercises](Answers%20to%20Exercises/README.md)
