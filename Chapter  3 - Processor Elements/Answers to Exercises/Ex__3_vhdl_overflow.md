@@ -16,6 +16,8 @@ The listing of the VHDL implementation of a portion of a 6502-like ALU in this c
 left | right | left(7) | right(7) | result8(7) | V_OUT | Correct?
 ---- | ----- | ------- | -------- | ---------- | ----- | --------
 126 | 1 | 0 | 0 | 0 | 0 | Yes
-127 | 1 | 0 | | 0 | 1 | 1 | Yes
+127 | 1 | 0 | 0 | 1 | 1 | Yes
 -127 | -1 | 1 | 1 | 1 | 0 | Yes
 -128 | -1 | 1 | 1 | 0 | 1 | Yes
+
+The logic for setting or clearing the V flag is correct for these test cases.
