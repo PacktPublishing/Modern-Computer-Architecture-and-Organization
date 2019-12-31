@@ -4,16 +4,12 @@
 ; Set up the array of bytes to be checksummed
 LDA #$01
 STA $00
-
 LDA #$72
 STA $01
-
 LDA #$93
 STA $02
-
 LDA #$F4
 STA $03
-
 LDA #$06 ; This is the checksum byte
 STA $04
 
@@ -25,11 +21,6 @@ STA $11
 ; Store the number of bytes in X
 LDX #5
 
-; Entering the checksum algorithm
-; Move X to Y
-TXA
-TAY
-
 ; Call the checksum calculation subroutine
 JSR CALC_CKSUM
 
@@ -39,6 +30,10 @@ BRK
 ; ==============================================
 ; Compute the checksum
 CALC_CKSUM:
+; Move X to Y
+TXA
+TAY
+
 LDA #$00
 DEY
 
@@ -49,14 +44,14 @@ DEY
 BPL LOOP
 
 CMP #$00
-BNE ERROR
+BNE CKSUM_ERROR
 
 ; The sum is zero: Checksum is correct
 LDA #1
 JMP DONE
 
 ; The sum is nonzero: Checksum is incorrect
-ERROR:
+CKSUM_ERROR:
 LDA #0
 
 ; A contains 1 if checksum is correct, 0 if it is incorrect
