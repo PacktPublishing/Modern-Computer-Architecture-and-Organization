@@ -1,3 +1,4 @@
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 8, Exercise 1
 
 Consider a direct-mapped L1-I cache of 32KB. Each cache line consists of 64 bytes and the system address space is 4GB. How many bits are in the cache tag? Which bit numbers (bit 0 is the least significant bit) are they within the address word?

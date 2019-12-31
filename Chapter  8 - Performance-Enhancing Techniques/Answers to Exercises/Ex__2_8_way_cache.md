@@ -1,3 +1,4 @@
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 8, Exercise 2
 
 Consider an 8-way set associative L2 cache of 256KB, with 64 bytes in each cache line. How many sets are in this cache?

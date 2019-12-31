@@ -1,3 +1,17 @@
-# Modern Computer Architecture and Organization
-## Chapter 8 - Performance-Enhancing Techniques
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 8 - Performance-Enhancing Techniques
 
+The essential aspects of processor and memory architectures discussed in previous chapters enable the design of a complete and functional computer system. However, the performance of such a system would be poor compared to most modern processors without including features to increase the rate of instruction execution.
+
+Several performance-enhancing techniques are employed routinely in processor and system designs to achieve peak execution speed in real-world computer systems. These techniques do not alter what the processor does in terms of program execution and data processing; they just help get it done faster. 
+
+After completing this chapter, you will understand the purpose of multilevel cache memory in computer architectures and the benefits and challenges associated with instruction pipelining. You’ll understand the performance improvement resulting from instruction parallelism and will also understand the purpose and applications of single instruction, multiple data processing.
+
+The following topics will be covered in this chapter:
+* Cache memory
+* Instruction pipelining
+* Simultaneous multithreading
+* SIMD processing
+
+# Answers to Exercises
+[Answers to Exercises](Answers%20to%20Exercises/README.md)

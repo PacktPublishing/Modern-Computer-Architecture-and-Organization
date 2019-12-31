@@ -1,3 +1,4 @@
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 8, Exercise 3
 
 A processor has a 4-stage pipeline with maximum delays of 0.8, 0.4, 0.6, and 0.3 nanoseconds in stages 1-4, respectively. If the first stage is replaced with two stages that have maximum delays of 0.5 and 0.3 nanoseconds respectively, how much will the processor clock speed increase in percentage terms?

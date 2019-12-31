@@ -1,3 +1,4 @@
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 7, Exercise 3
 
 The order of accessing sequential elements in a large data structure can have a measurable impact on processing speed due to factors such as the reuse of TLB entries. Accessing distant array elements in sequence (that is, elements that are not in the same page frame as previously accessed elements) requires frequent soft faults as new TLB entries are loaded and old TLB entries are discarded.
