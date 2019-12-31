@@ -1,5 +1,5 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
-# Chapter 5, Exercise 1
+# Chapter 5, Exercise 2
 Restart your computer and enter the BIOS or UEFI settings. Examine each of the menus available in this environment. Does your computer have BIOS or does it use UEFI? Does your motherboard support overclocking? Note: When you are finished, be sure to select the option to quit without saving changes unless you are absolutely certain you want to make changes.
 
 # Answer
@@ -12,7 +12,7 @@ In Windows, you can enter the BIOS/UEFI settings by changing the startup options
 1. in the **UEFI Firmware Settings** screen, click the **Restart** button.
 1. The system will restart and display the UEFI configuration main screen. Use the left and right arrow keys on the keyboard to move between the screens.
 
-To answer the questions for a specific computer system (an Asus Zenbook UX303LA laptop in this example):
+To answer the questions for a specific computer system (an Asus ZenBook UX303LA laptop in this example):
 * Although the messages displayed in the menus use the term "BIOS" freely, mentions of "EFI applications" and its age indicate it is actually **UEFI**.
 * **No overclocking options** are available.
 
