@@ -1,5 +1,5 @@
-# Modern Computer Architecture and Organization
-## Chapter 5 - Hardware-Software Interface
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 5 - Hardware-Software Interface
 
 The vast majority of computer software is not written at the processor instruction level, in assembly language. Instead, each application you work with on a daily basis was written in a one high-level programming language or another, using a pre-built library of capabilities that the application programmers extended during the software development process. Practical programming environments, consisting of programming languages and their associated libraries, must offer many high-level services such as disk I/O, network communications, and interactions with users that are easily accessible from programming languages. 
 
@@ -12,3 +12,10 @@ We will cover the following topics:
 * Operating systems
 * Processes and threads
 * Multiprocessing
+
+# Chapter files
+
+[bcdedit_output.md](src/bcdedit_output.md) is an example of the BCD (boot configuration data) information stored on a Windows 10 system.
+
+# Answers to Exercises
+[Answers to Exercises](Answers%20to%20Exercises/README.md)

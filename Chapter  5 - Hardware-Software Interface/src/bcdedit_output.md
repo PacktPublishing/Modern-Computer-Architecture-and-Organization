@@ -1,5 +1,9 @@
+__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+# Chapter 5
+
 The example below shows the BCD (boot configuration data) information stored on a Windows 10 system. To display this information on your computer, you must run the bcdedit command from a command prompt with Administrator privilege:
 
+```
 C:\>bcdedit
 
 Windows Boot Manager
@@ -35,3 +39,4 @@ resumeobject            {92f49995-fef7-11e8-a8e2-e508765ab07c}
 nx                      OptIn
 bootmenupolicy          Standard
 debug                   Yes
+```
