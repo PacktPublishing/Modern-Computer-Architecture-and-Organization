@@ -1,5 +1,5 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
-# Chapter 5, Exercise 2
+# Chapter 5, Exercise 1
 Restart your computer and enter the BIOS or UEFI settings. Examine each of the menus available in this environment. Does your computer have BIOS or does it use UEFI? Does your motherboard support overclocking? Note: When you are finished, be sure to select the option to quit without saving changes unless you are absolutely certain you want to make changes.
 
 # Answer

@@ -1,5 +1,5 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
-# Chapter 5, Exercise 1
+# Chapter 5, Exercise 2
 Run the appropriate command on your computer to display the currently running processes. What is the PID of the process you are using to run this command?
 
 # Answer
