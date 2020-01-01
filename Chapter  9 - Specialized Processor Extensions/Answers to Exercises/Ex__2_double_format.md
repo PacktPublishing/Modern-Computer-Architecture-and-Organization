@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 9, Exercise 2
 
-2.	Modify the program of Exercise 1 to also accept a double-precision floating-point variable, and print the sign, exponent (with the bias removed), and mantissa from the variable. Test with the same input values as in Exercise 1, and also with the values 1.0e308, 1.0e309, 1.0e-308, 1.0e-309.
+Modify the program of Exercise 1 to also accept a double-precision floating-point variable, and print the sign, exponent (with the bias removed), and mantissa from the variable. Test with the same input values as in Exercise 1, and also with the values 1.0e308, 1.0e309, 1.0e-308, 1.0e-309.
 
 # Answer
 See the C++ file [Ex__2_double_format.cpp](src/Ex__2_double_format.cpp).
