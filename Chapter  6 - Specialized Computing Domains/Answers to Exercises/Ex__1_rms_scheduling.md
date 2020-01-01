@@ -16,9 +16,11 @@ Thread 3 | 120 | 1000
 
 # Answer
 First, evalute the left side of the RMS formula using the data from the table:
+
 ![RMS left side](src/Ex__1_rms_scheduling2.png)
 
 Then evaluate the right side of the RMS formula:
+
 ![RMS right side](src/Ex__1_rms_scheduling3.png)
 
 Because 0.82 is not less than or equal to 0.7798, **this set of tasks is not schedulable in RMS**.
