@@ -13,3 +13,14 @@ Note that the cosine terms in the formula depend only on the indexes <i>n</i> an
 Note also that this formula represents the un-optimized form of the DCT computation, requiring <i>N<sup>2</sup></i> iterations of the MAC operation to compute all <i>N</i> DCT coefficients.
 
 # Answer
+See the python file [Ex__2_dct_formula.py](src/Ex__2_dct_formula.py) for the DCT code.
+
+To run the code, assuming **python** is installed and is in your path, execute the command **python Ex__2_dct_formula.py**
+
+This is the output produced by the program:
+```
+C:\>Ex__2_dct_formula.py
+Index       0       1       2       3       4       5       6       7
+x        0.5000  0.2000  0.7000 -0.6000  0.4000 -0.2000  1.0000 -0.3000
+DCT(x)   1.7000  0.4244  0.6374  0.4941 -1.2021  0.5732 -0.4936  2.3296
+```
