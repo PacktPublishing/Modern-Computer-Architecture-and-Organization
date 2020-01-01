@@ -14,7 +14,7 @@ Are you able to determine a persistently superior array access method? Which ord
 # Answer
 See [Ex__3_row_column_major_order.py](src/Ex__3_row_column_major_order.py) for the python implementation of a solution of this exerciee. This program takes a few minutes to run on a Windows PC.
 
-This is typical output from a run of this script:
+This is typical output from a run of this program:
 
 ```
 Average row-major time   : 16.68 sec
