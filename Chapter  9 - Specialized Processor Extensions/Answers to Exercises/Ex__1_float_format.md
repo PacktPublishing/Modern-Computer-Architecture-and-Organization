@@ -21,7 +21,7 @@ This is the output of the program:
 ```
 Some notes about these results:
 * Zero in IEEE 754 can have a positive or negative sign. The zero passed to the **print_float** function in the second row of the table is preceded with a minus sign, but the sign is ignored during the conversion to floating-point.
-* The value **1.0e39f** is not shown because using it causes a compile-time error.
+* The value **1.0e39f** is not shown because using it causes a compile-time error: floating constant is out of range.
 * Zero is represented as a mantissa of zero and a biased exponent of zero.
-* The last two rows contain numbers that cannot be represented with an implicit leading 1 bit because the exponent would underflow. These numbers are called subnormals, and have the special biased exponent of 0. Subnormals have reduced precision because not all bits of the mantissa contain meaningful digits.
-* Subnormal numbers use a biased exponent of 1, which translates to an unbiased exponent of -126.
+* The last two rows contain numbers that cannot be represented with an implicit leading 1 bit because the exponent would underflow. These numbers are called subnormals, and contain the special biased exponent of 0. Subnormals have reduced precision because not all bits of the mantissa contain meaningful digits.
+* Subnormal floats use a biased exponent of 1, which translates to an unbiased exponent of -126.
