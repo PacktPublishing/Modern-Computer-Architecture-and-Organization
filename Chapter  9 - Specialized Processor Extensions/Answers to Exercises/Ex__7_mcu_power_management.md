@@ -4,3 +4,9 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 What power management features do the i.MX RT1060 processors support?
 
 # Answer
+Section 12.4 of the reference manual describes the processor power management subsystem. Some of the key features are:
+* Separate power domains for the processor, memory, and the rest of the system.
+* Integrated secondary power supplies for intependently powering a variety of subsystems.
+* Voltage and clock frequency control enabling dynamic voltage and frequency scaling (DVFS).
+* Temperature sensors.
+* Voltage sensors.
