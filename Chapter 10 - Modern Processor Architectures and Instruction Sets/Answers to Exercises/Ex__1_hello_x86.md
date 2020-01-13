@@ -10,7 +10,7 @@ Build the program using the command shown in the **x86 assembly language** secti
 
 
 # Answer
-Install Visual Studio Community as described in the exercise description above, then install the **Desktop development with C++** workload within Visual Studio Community.
+Install Visual Studio Community as described above, then install the **Desktop development with C++** workload within Visual Studio Community.
 
 Create your assembly language source file. See [Ex__1_hello_x86.asm](src/Ex__1_hello_x86.asm) for an example solution to this exercise.
  
@@ -23,10 +23,89 @@ ml /Fl /Zi /Zd Ex__1_hello_x86.asm
 
 Run the executable with this command:
 ```
-C:\>Ex__1_hello_x86.executable
+C:\>Ex__1_hello_x86.exe
 ```
 
 The following output should appear:
 ```
 Hello, Computer Architect!
+```
+
+The listing file created by the **ml** command is:
+```
+Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/13/20 07:39:06
+Ex__1_hello_x86.asm					     Page 1 - 1
+
+
+				.386
+				.model FLAT,C
+				.stack 400h
+
+ 00000000			.code
+				includelib libcmt.lib
+				includelib legacy_stdio_definitions.lib
+
+				extern printf:near
+				extern exit:near
+
+				public main
+ 00000000			main proc
+ 00000000  68 00000000 R	    push    offset message
+ 00000005  E8 00000000 E	    call    printf
+				    
+ 0000000A  6A 00		    push    0
+ 0000000C  E8 00000000 E	    call    exit
+ 00000011			main endp
+
+ 00000000			.data
+ 00000000 48 65 6C 6C 6F	message db "Hello, Computer Architect!",0
+	   2C 20 43 6F 6D
+	   70 75 74 65 72
+	   20 41 72 63 68
+	   69 74 65 63 74
+	   21 00
+
+				end
+Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/13/20 07:39:06
+Ex__1_hello_x86.asm					     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00000400 DWord	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000001B DWord	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000011 DWord	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000011 Public C
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000001h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+exit . . . . . . . . . . . . . .	L Near	 00000000 FLAT	External C
+message  . . . . . . . . . . . .	Byte	 00000000 _DATA	
+printf . . . . . . . . . . . . .	L Near	 00000000 FLAT	External C
+
+	   0 Warnings
+	   0 Errors
 ```
