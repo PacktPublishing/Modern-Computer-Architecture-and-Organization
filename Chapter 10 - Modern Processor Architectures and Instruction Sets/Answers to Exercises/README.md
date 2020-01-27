@@ -8,3 +8,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 [Exercise 3](Ex__3_hello_x64.md)
 
 [Exercise 4](Ex__4_expr_x64.md)
+
+[Exercise 5](Ex__5_hello_arm.md)
+
+[Exercise 6](Ex__6_expr_arm.md)
