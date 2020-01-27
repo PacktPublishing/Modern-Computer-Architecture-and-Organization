@@ -9,3 +9,6 @@ __pycache__
 *.lnk
 *.o
 Ex__5_hello_arm
+Ex__6_expr_arm
+Ex__7_hello_arm64
+Ex__8_expr_arm64
