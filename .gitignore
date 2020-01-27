@@ -1,1 +1,11 @@
 __pycache__
+
+*.bat
+*.exe
+*.ilk
+*.lst
+*.obj
+*.pdb
+*.lnk
+*.o
+Ex__5_hello_arm

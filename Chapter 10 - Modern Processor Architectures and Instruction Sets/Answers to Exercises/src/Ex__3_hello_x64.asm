@@ -1,7 +1,3 @@
-.386
-.model FLAT,C
-.stack 400h
-
 .code
 includelib libcmt.lib
 includelib legacy_stdio_definitions.lib
@@ -11,12 +7,15 @@ extern exit:near
 
 public main
 main proc
+    ; Reserve stack space
+    sub     rsp, 40
+    
     ; Print the message
-    push    offset message
+    lea     rcx, message
     call    printf
     
     ; Exit the program with status 0
-    push    0
+    xor     rcx, rcx
     call    exit
 main endp
 

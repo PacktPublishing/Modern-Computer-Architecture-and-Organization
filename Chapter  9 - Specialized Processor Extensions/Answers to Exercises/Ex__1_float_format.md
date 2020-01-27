@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 9, Exercise 1
 
-Using a programming language that allows access to the byte representation of floating-point data types (such as C or C++), write a function that accepts a 32-bit single-precision variable as input. Extract the sign, exponent, and mantissa from the bytes of the floating-point variable and display them. Remove the bias term from the exponent before displaying its value. Test the program with the values 0, -0, 1, -1, 6.674e-11, 1.0e38, 1.0e39, 1.0e-38, and 1.0e-39. Note that the numeric values listed here containing “e” are in the C/C++ text format for floating-point numbers. For example, 6.674e-11 means 6.674 &times; 10<sup>-11</sup>.
+Using a programming language that allows access to the byte representation of floating-point data types (such as C or C++), write a function that accepts a 32-bit single-precision variable as input. Extract the sign, exponent, and mantissa from the bytes of the floating-point variable and display them. Remove the bias term from the exponent before displaying its value and display the mantissa as a decimal number.  Test the program with the values 0, -0, 1, -1, 6.674e-11, 1.0e38, 1.0e39, 1.0e-38, and 1.0e-39. Note that the numeric values listed here containing "e" are in the C/C++ text format for floating-point numbers. For example, 6.674e-11 means 6.674 &times; 10<sup>-11</sup>.
 
 # Answer
 See the C++ file [Ex__1_float_format.cpp](src/Ex__1_float_format.cpp).
