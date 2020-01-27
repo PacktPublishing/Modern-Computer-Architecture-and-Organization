@@ -61,7 +61,7 @@ print_byte endp
 
 .data
 fmt_str db "%02X", 0
-msg1    db "[(129 – 66) * (445 + 136)] / 3 = ", 0
+msg1    db "[(129 - 66) * (445 + 136)] / 3 = ", 0
 msg2    db "h", 9
 
 end

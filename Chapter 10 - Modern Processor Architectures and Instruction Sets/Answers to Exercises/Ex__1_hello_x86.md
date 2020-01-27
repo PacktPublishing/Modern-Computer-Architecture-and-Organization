@@ -21,17 +21,13 @@ Build the executable with this command:
 ml /Fl /Zi /Zd Ex__1_hello_x86.asm
 ```
 
-Run the executable with this command:
+This is the output produced by the program:
 ```
 C:\>Ex__1_hello_x86.exe
-```
-
-The following output should appear:
-```
 Hello, Computer Architect!
 ```
 
-The listing file created by the **ml** command is:
+This is the listing file created by the build procedure:
 ```
 Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/15/20 18:40:04
 Ex__1_hello_x86.asm					     Page 1 - 1
