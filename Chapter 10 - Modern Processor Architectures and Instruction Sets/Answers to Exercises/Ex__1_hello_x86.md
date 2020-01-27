@@ -33,7 +33,7 @@ Hello, Computer Architect!
 
 The listing file created by the **ml** command is:
 ```
-Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/13/20 07:39:06
+Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/15/20 18:40:04
 Ex__1_hello_x86.asm					     Page 1 - 1
 
 
@@ -50,9 +50,11 @@ Ex__1_hello_x86.asm					     Page 1 - 1
 
 				public main
  00000000			main proc
+				    ; Print the message
  00000000  68 00000000 R	    push    offset message
  00000005  E8 00000000 E	    call    printf
 				    
+				    ; Exit the program with status 0
  0000000A  6A 00		    push    0
  0000000C  E8 00000000 E	    call    exit
  00000011			main endp
@@ -66,7 +68,9 @@ Ex__1_hello_x86.asm					     Page 1 - 1
 	   21 00
 
 				end
-Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/13/20 07:39:06
+                                
+                                
+Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/15/20 18:40:04
 Ex__1_hello_x86.asm					     Symbols 2 - 1
 
 
