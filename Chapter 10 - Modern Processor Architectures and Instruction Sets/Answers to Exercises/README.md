@@ -12,3 +12,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 [Exercise 5](Ex__5_hello_arm.md)
 
 [Exercise 6](Ex__6_expr_arm.md)
+
+[Exercise 7](Ex__7_hello_arm64.md)
+
+[Exercise 8](Ex__8_expr_arm64.md)

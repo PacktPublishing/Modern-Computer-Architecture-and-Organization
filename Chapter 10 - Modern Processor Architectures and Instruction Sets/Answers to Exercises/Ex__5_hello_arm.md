@@ -29,6 +29,13 @@ arm-linux-androideabi-ld -o Ex__5_hello_arm Ex__5_hello_arm.o
 
 This is the output produced by copying the program to an Android device and running it:
 ```
+C:\>adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+9826f541374f4b4a68      device
+
+
 C:\>adb push Ex__5_hello_arm /data/local/tmp/Ex__5_hello_arm
 Ex__5_hello_arm: 1 file pushed. 0.0 MB/s (868 bytes in 0.059s)
 

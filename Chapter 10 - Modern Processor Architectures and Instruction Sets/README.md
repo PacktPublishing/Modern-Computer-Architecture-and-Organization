@@ -19,7 +19,7 @@ The following topics will be covered in this chapter:
 
 [hello_x64.asm](src/hello_x64.asm) is the 64-bit x64 **hello** assembly language program.
 
-[hello_arm32.s](src/hello_arm32.s) is the 32-bit ARM **hello** assembly language program.
+[hello_arm.s](src/hello_arm.s) is the 32-bit ARM **hello** assembly language program.
 
 [hello_arm64.s](src/hello_arm64.s) is the 64-bit ARM **hello** assembly language program.
 

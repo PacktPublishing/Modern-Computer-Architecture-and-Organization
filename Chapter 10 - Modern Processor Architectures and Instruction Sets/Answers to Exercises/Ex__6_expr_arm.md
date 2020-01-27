@@ -6,8 +6,6 @@ Write a 32-bit ARM assembly language program that computes the following express
 # Answer
 Create your assembly language source file. See [Ex__6_expr_arm.s](src/Ex__6_expr_arm.s) for an example solution to this exercise.
  
-Open the **x86 Native Tools Command Prompt for VS 2019** and change to the directory containing your source file.
-
 Build the executable with these commands:
 ```
 arm-linux-androideabi-as -al=Ex__6_expr_arm.lst -o Ex__6_expr_arm.o Ex__6_expr_arm.s
@@ -16,6 +14,13 @@ arm-linux-androideabi-ld -o Ex__6_expr_arm Ex__6_expr_arm.o
 
 This is the output produced by copying the program to an Android device and running it:
 ```
+C:\>adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+9826f541374f4b4a68      device
+
+
 C:\>adb push Ex__6_expr_arm /data/local/tmp/Ex__6_expr_arm
 Ex__6_expr_arm: 1 file pushed. 0.2 MB/s (1188 bytes in 0.007s)
 
