@@ -11,14 +11,14 @@ Start Freedom Studio.
 
 In the **Welcom to SiFive FreedomStudio! Let's Get Started...** dialog, select **I wanto to create a new Freedom E SDK Project**
 
-In the **Create a Freedom E SDK Project** dialog, select **qemu-sifive-u54** as the target (this is a single-core 64-bit RISC-V processor in the RV64GC configuration).
+In the **Create a Freedom E SDK Project** dialog, select **qemu-sifive-u54** as the target.
 
 Select the **hello** example program.
 
-Click on the **Finish** button.
+Click the **Finish** button.
 
 After the build completes, the **Edit Configuration** dialog box will appear.
 
-Click on **Debug** to start the program in the emulator debug environment.
+Click **Debug** to start the program in the emulator debug environment.
 
 Single-step through the program and verify the text *Hello, World!* appears in the Console window.
