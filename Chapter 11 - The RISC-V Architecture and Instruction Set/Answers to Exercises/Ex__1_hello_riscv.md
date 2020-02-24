@@ -9,7 +9,7 @@ Install Freedom Studio as described above. Note that the directory path for your
 
 Start Freedom Studio.
 
-In the **Welcom to SiFive FreedomStudio! Let's Get Started...** dialog, select **I wanto to create a new Freedom E SDK Project**
+In the **Welcom to SiFive FreedomStudio! Let's Get Started...** dialog, select **I want to create a new Freedom E SDK Project**
 
 In the **Create a Freedom E SDK Project** dialog, select **qemu-sifive-u54** as the target.
 
