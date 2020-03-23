@@ -8,6 +8,9 @@ __pycache__
 *.pdb
 *.lnk
 *.o
+
+stage4-disk.*
+
 Ex__5_hello_arm
 Ex__6_expr_arm
 Ex__7_hello_arm64
