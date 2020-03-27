@@ -79,10 +79,18 @@ make -f Makefile.e300artydevkit mcs
 
 When this step completes, the output file is located at **~/freedom/builds/e300artydevkit/obj/E300ArtyDevKitFPGAChip.mcs**
 
-1. Copy the **E300ArtyDevKitFPGAChip.mcs** file to the Windows host. Follow the instructions at  https://www.sifive.com/documentation/freedom-soc/freedom-e300-arty-fpga-dev-kit-getting-started-guide/ to connect the Olimex debugger to the Arty A7 board and flash the E300ArtyDevKitFPGAChip.mcs file onto the board.
+1. Copy the **E300ArtyDevKitFPGAChip.mcs** file to the Windows host. Follow the instructions at  https://www.sifive.com/documentation/freedom-soc/freedom-e300-arty-fpga-dev-kit-getting-started-guide/ to connect the Olimex debugger to the Arty A7 board and flash the **E300ArtyDevKitFPGAChip.mcs** file onto the board.
 
 1. Close Vivado and shut down the Ubuntu virtual machine. Start FreedomStudio in your Windows (or Linux) host. Keep the Arty A7 USB cable connected to the host computer and keep the Olimex debugger connected to the host.
 
-1. Select **Create a new Freedom E SDK Software Project** in the FreedomStudio **SiFive Tools** menu. Select **freedom-e310-arty** as the target. Select **hello** as the example program. 
+1. Select **Create a new Freedom E SDK Software Project** in the FreedomStudio **SiFive Tools** menu. Select **freedom-e310-arty** as the target. Select **hello** as the example program. Click **Finish** to create the project and start a build.
 
-1. 
+1. After the build completes, a dialog titled **Edit configuration and launch** will appear. Click **Debug** to download the executable image to the Arty A7. If you watch the red LED on the cable side of the Olimex device you should see some flickering as the download progresses.
+
+1. Open the Windows **Device Manager** (type *device* into the Windows Search box and select **Device Manager** from the list). Under **Ports (COM & LPT)** identify the COM port number of the Arty, which will be named **USB Serial Port**.
+
+1. In FreedomStudio, close any COM Console windows that are open.
+
+1. In FreedomStudio, click the icon that looks like a screen to create a new COM Console window. In the **Choose terminal** field select *Serial terminal*. Set the serial port to the port you identified in **Device Manager**. Set the baud rate to 57600. Click OK to open the console window.
+
+1. Click the mouse cursor inside the FreedomStudio window containing C source code. Press **F6** to single-step the C program. The text *Hello, World!* should appear in the console window. This is output from the program running on the RISC-V processor implemented in the Arty A7 FPGA.
