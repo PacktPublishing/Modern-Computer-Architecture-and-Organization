@@ -32,4 +32,4 @@ Download and install the current version of Virtual Box. Download, install, and 
 
 1. Create a directory named *share* with this command: **mkdir share**
 
-1. Enter this command to mount the shared folder: *sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share
+1. Enter this command to mount the shared folder: *sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share*
