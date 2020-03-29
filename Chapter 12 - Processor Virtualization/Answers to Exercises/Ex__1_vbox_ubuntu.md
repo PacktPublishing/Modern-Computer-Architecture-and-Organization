@@ -1,24 +1,35 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
-# Chapter 11, Exercise 1
+# Chapter 12, Exercise 1
 
-Visit https://www.sifive.com/boards/ and download Freedom Studio. Freedom Studio is an Eclipse IDE-based development suite with a complete set of tools for building a RISC-V application and running it on a RISC-V processor or in the emulation environment included with Freedom Studio. Follow the instructions in the *Freedom Studio User Manual* to complete the installation. Start Freedom Studio and create a new Freedom E SDK project. In the project creation dialog, select **qemu-sifive-u54** as the target (this is a single-core 64-bit RISC-V processor in the RV64GC configuration). Select the **hello** example program and click on the **Finish** button. This will start a build of the example program and the RISC-V emulator. After the build completes, the **Edit Configuration** dialog box will appear. Click on **Debug** to start the program in the emulator debug environment. Single-step through the program and verify the text *Hello, World!* appears in the Console window.
-
+Download and install the current version of Virtual Box. Download, install, and bring up Ubuntu Linux as a virtual machine within Virtual Box. Connect the guest OS to the Internet using a bridged network adapter. Configure and enable clipboard sharing and file sharing between the Ubuntu guest and your host operating system.
 
 # Answer
-Install Freedom Studio as described above. Note that the directory path for your workspace cannot include spaces.
+1. Download the VirtualBox installer from https://www.virtualbox.org/wiki/Downloads. Be sure to select the version appropriate for your host operating system.
 
-Start Freedom Studio.
+1. Run the VirtualBox installer and accept the default prompts.
 
-In the **Welcom to SiFive FreedomStudio! Let's Get Started...** dialog, select **I wanto to create a new Freedom E SDK Project**
+1. Download a VirtualBox image of 64-bit Ubuntu Linux. One source for such an image is https://www.osboxes.org/ubuntu/. If the image is in a compressed format, uncompress it. Use 7-zip (https://www.7-zip.org/) if the filename ends with *.7z*. The VirtualBox disk image filename ends in *.vdi*.
 
-In the **Create a Freedom E SDK Project** dialog, select **qemu-sifive-u54** as the target.
+1. Move the *.vdi* file to the folder where you want to run it from. If you don't have a preference, use yout **Documents** folder for this.
 
-Select the **hello** example program.
+1. Start VirtualBox and click the **New** icon. Give the new machine a name, such as *Ubuntu*, select *Linux* as the type, and select *Ubuntu (64-bit)* as the version. Click **Next**.
 
-Click the **Finish** button.
+1. In the **Memory size** dialog, accept the default memory size (or increase it if you prefer).
 
-After the build completes, the **Edit Configuration** dialog box will appear.
+1. In the **Hard disk** dialog, select **Use an existing virtual hard disk file**. Click the browse button (it looks like a folder), then click the **Add** button in the **Hard disk selector** dialog. Navigate to the *.vdi* file you downloaded and select **Open**. Click **Create** to finish creating the virtual machine.
 
-Click **Debug** to start the program in the emulator debug environment.
+1. Click the **Settings** icon in VirtualBox. In the **General** section, **Advanced** tab, select *Bidirectional* for **Shared Clipboard**. 
 
-Single-step through the program and verify the text *Hello, World!* appears in the Console window.
+1. Click **Network**. In the **Adapter 1** tab, select **Bridged Adapter** next to **Attached to:**.
+
+1. Create a folder on the Windows disk named **share** in your **Documents** folder. Click **Shared Folders**. Click the icon to add a shared folder (it looks like a folder with a plus on it). Select the **share** folder on the host computer and click **OK**.
+
+1. Click **OK** in the **Settings** dialog to close it.
+
+1. Click the **Start** icon to start the virtual machine. When the Ubuntu system finishes booting, login with username *osboxes* and password *osboxes.org*.
+
+1. After login has finished, open a terminal window by pressing *CTRL+ALT+T*.
+
+1. Create a directory named *share* with this command: **mkdir share**
+
+1. Enter this command to mount the shared folder: *sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share

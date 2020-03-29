@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
 # Chapter 11, Exercise 4
 
-Program a Digilent Arty A7-35T board with a RISC-V processor image. Build and run the **hello** program on the RISC-V processor. Verify the program outputs the text **Hello, Computer Architect!**
+Program an Arty A7-35T board with a RISC-V processor image. Build and run the **hello** assembly language program shown in the *RISC-V assembly language* section in this chapter on the RISC-V processor using the Olimex ARM-TINY-USB-H debugger as described in the *Implementing RISC-V in an FPGA* section near the end of this chapter. Verify the program outputs the text **Hello, Computer Architect!**
 
 # Answer
 The instructions in this answer are based on information provided at https://github.com/sifive/freedom, with some updates to work with more recent versions of libraries. Several of these steps are quite time consuming and the entire process may take several hours.

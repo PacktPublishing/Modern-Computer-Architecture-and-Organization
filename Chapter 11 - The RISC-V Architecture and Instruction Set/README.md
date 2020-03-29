@@ -1,11 +1,10 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 11 - The RISC-V Architecture and Instruction Set
 
-This chapter introduces the exciting, comparatively new RISC-V (pronounced *risk five*) processor architecture and its instruction set. RISC-V is a completely open source, free to use, specification for a reduced instruction set processor. A complete user-mode (non-privileged) instruction set specification has been released and several inexpensive hardware implementations of this architecture are currently available. Work is ongoing to develop specifications for a number of instruction set extensions to support general-purpose computing applications, high-performance computing, and embedded applications requiring minimal code size. Processors are commercially available that implement many of these developmental extensions.
-
-This chapter covers the baseline features and extensions available in the RISC-V architecture and introduces the RISC-V instruction set. 
+This chapter introduces the exciting, relatively new RISC-V (pronounced *risk five*) processor architecture and its instruction set. RISC-V is a completely open source specification for a reduced instruction set processor. A complete user-mode (non-privileged) instruction set specification has been released and several inexpensive hardware implementations of this architecture are currently available. Work is ongoing to develop specifications for a number of instruction set extensions to support general-purpose computing, high-performance computing, and embedded applications requiring minimal code size. Commercially available processors implement many of these developmental extensions.
 
 The following topics will be covered in this chapter:
+
 * RISC-V architecture and features
 * RISC-V base instruction set
 * RISC-V extensions
