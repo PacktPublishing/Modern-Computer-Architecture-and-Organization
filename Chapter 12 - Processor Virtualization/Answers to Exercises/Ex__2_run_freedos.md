@@ -6,7 +6,7 @@ Within the Ubuntu operating system you installed in Exercise 1, install VirtualB
 # Answer
 1. With your Ubuntu virtual machine not running, select the VirtualBox **Settings** icon in VirtualBox manager for the VM. In the **System** section, **Processor** tab, check the box for *Enable Nested VT-x/AMD-V*. You must be running VirtualBox 6.1 or later for this feature to be fully supported. Click **OK** to save the change.
 
-1. Start your Ubuntu virtual machine. Login to the VM, open a terminal windows, and install VirtualBox in the Ubuntu virtual machine with the following commands:
+2. Start your Ubuntu virtual machine. Login to the VM, open a terminal windows, and install VirtualBox in the Ubuntu virtual machine with the following commands:
 
 ```
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
@@ -14,12 +14,12 @@ sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtual
 sudo apt update && sudo apt install virtualbox-6.1
 ```
 
-1. Install 7-zip in the Ubuntu VM with this command:
+3. Install 7-zip in the Ubuntu VM with this command:
 ```
 sudo apt-get install p7zip-full
 ```
 
-1. Download a VirtualBox virtual disk image for FreeDOS from https://www.osboxes.org/freedos/. Perform the following steps (assuming the downloaded files is in the ~/Downloads directory, and the FreeDOS image file name is *1-2.7.z*):
+4. Download a VirtualBox virtual disk image for FreeDOS from https://www.osboxes.org/freedos/. Perform the following steps (assuming the downloaded files is in the ~/Downloads directory, and the FreeDOS image file name is *1-2.7.z*):
 ```
 cd
 mkdir 'VirtualBox VMs'
@@ -28,12 +28,12 @@ mv ~/Downloads/1-2.7.z .
 7z x 1-2.7z
 ```
 
-1. Start VirtualBox with the following command:
+5. Start VirtualBox with the following command:
 ```
 virtualbox &
 ```
 
-1. Create a new VM in the VirtualBox instance running in the Ubuntu VM. Select the following options:
+6. Create a new VM in the VirtualBox instance running in the Ubuntu VM. Select the following options:
 ```
 Name: FreeDOS
 Type: Other
@@ -42,11 +42,11 @@ Version: DOS
 Use an existing virtual hard disk file
 ```
 
-1. Select the VDI file in ~/VirtualBox VMs with a name similar to 'FreeDOS 1.2.vdi' and complete the VM configuration.
+7. Select the VDI file in ~/VirtualBox VMs with a name similar to 'FreeDOS 1.2.vdi' and complete the VM configuration.
 
-1. Click the **Start** icon in VirtualBox manager to start the FreeDOS VM.
+8. Click the **Start** icon in VirtualBox manager to start the FreeDOS VM.
 
-1. After FreeDOS completes booting, execute these commands:
+9. After FreeDOS completes booting, execute these commands:
 ```
 echo Hello World!
 mem
