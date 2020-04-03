@@ -6,7 +6,7 @@ Within the Ubuntu operating system you installed in [Exercise 1](Ex__1_vbox_ubun
 # Answer
 1. With your Ubuntu virtual machine not running, select the **Settings** icon in VirtualBox manager for the VM. In the **System** section, **Processor** tab, check the box for *Enable Nested VT-x/AMD-V*. You must be running VirtualBox 6.1 or later for this feature to be fully supported. Click **OK** to save the change.
 
-2. Start your Ubuntu virtual machine. Login to the VM, open a terminal windows, and install VirtualBox in the Ubuntu virtual machine with the following commands:
+2. Start your Ubuntu virtual machine. Login to the VM, open a terminal window, and install VirtualBox in the Ubuntu virtual machine with the following commands:
 
 ```
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
@@ -51,5 +51,8 @@ Use an existing virtual hard disk file
 echo Hello World!
 mem
 dir
-help
 ```
+
+This screenshot shows the output of the *mem* command:
+
+![FreeDOS screenshot](FreeDOS-screen.png)
