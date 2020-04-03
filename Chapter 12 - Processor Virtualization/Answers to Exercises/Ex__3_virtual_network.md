@@ -46,4 +46,4 @@ rtt min/avg/max/mdev = 0.268/0.344/0.437/0.065 ms
 osboxes@osboxes:~$ 
 ```
 
-10. Login to the second Ubuntu VM, display its IP address, and ping the first Ubuntu VM by repeating the steps above.
+10. Login to the second Ubuntu VM and repeat the steps above to display its IP address and ping the first Ubuntu VM.
