@@ -13,9 +13,9 @@ For the system of [Exercise 1](Ex__1_weather_sys_diagram.md), identify a suitabl
 1. The Dragonfly Nano documentation states that when transmitting a small amount of data each day, the device can run for years on two AA size batteries.
 
 1. The reasons for selecting the Dragonfly Nano for this application are:
-  * **Cost:** While a price over $US100 is high for a microprocessor board, the integration of the cellular modem directly accomplishes key the system design goals.
+  * **Cost:** While a price over $US100 is high for a microprocessor board, the integration of the cellular modem directly accomplishes a key system design goal.
   * **Low power consumption:** Depending on the power requirements for the weather sensors, a small solar panel combined with a small rechargeable battery should easily satisfy system power requirements.
   * **Environmental compatibility:** The temperature range specification for the SoM is -40° to +85° C (-40° to +185° F), which should support operation anywhere in the world. The relative humidity tolerance range (20% to 90% RH, non-condensing) will require installation in a weatherproof enclosure.
-  * **Processing power:** The SoM processor is an [STM32L471QG](https://www.st.com/en/microcontrollers-microprocessors/stm32l4-series.html), a 32-bit MCU operating at 80 MHz. This processor provides a great deal of capability. It is possible to perform extensive preprocessing (filtering, sensor fault detection, etc.) on sensor measurements prior to transmission of data. The flash and RAM within the device should be more than adequate.
+  * **Processing power:** The SoM processor is an [STM32L471QG](https://www.st.com/en/microcontrollers-microprocessors/stm32l4-series.html), a 32-bit MCU operating at 80 MHz. This processor provides a great deal of capability, including a floating-point unit and dynamic voltage scaling. It is possible to perform extensive preprocessing (filtering, sensor fault detection, etc.) on sensor measurements prior to transmission of data. The flash and RAM within the device should be more than adequate.
   * **Certified solution:** The Dragonfly Nano is certified by the FCC and wireless carriers for use on cellular networks.
   * **Development support:** Free development tools and online resources are available at https://os.mbed.com/platforms/MTS-Dragonfly-Nano/
