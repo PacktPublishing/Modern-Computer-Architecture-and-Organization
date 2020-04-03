@@ -24,7 +24,7 @@ job_exp = execute(qc, backend=backend, shots=1024)
 job_monitor(job_exp)
 ```
 
-   After the run completes you will see the line:
+After the run completes you will see the line:
 ```
 Job Status: job has successfully run
 ```
@@ -40,7 +40,7 @@ counts_exp = result_exp.get_counts(qc)
 counts_exp
 ```
 
-   You should see results similar (but not identical) to these:
+You should see results similar (but not identical) to these:
 ```
 >>> counts_exp
 {'000': 459, '010': 28, '011': 35, '110': 17, '111': 428, '101': 23, '100': 22, '001': 12}

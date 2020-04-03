@@ -6,7 +6,7 @@ Work through the example quantum program at https://qiskit.org/documentation/tut
 # Answer
 1. Start an Anaconda prompt console. Type *anaconda* in the Windows search box and click on **Anaconda prompt** when it appears in the search list. A console window will appear.
 
-1. Return to the *qiskitenv* environment with this command:
+1. Enter the *qiskitenv* environment with this command:
 ```
 conda activate qiskitenv
 ```
@@ -39,10 +39,10 @@ qc = circ + meas
 
 5. Display the circuit onscreen:
 ```
-circ.draw()
+qc.draw()
 ```
 
-The output of this command should appear as follows:
+ The output of this command should appear as follows:
 ```
 >>> qc.draw()
         ┌───┐           ░ ┌─┐
@@ -61,14 +61,14 @@ q_2: |0>──────────┤ X ├─░──╫──╫─┤M�
 >>>
 ```
 
-6. Run the circuit on your computer using the statevector simulator. The *shots* parameter provides a count of the number of times the circuit will be executed to collect statistical results:
+6. Run the circuit on your computer using the *qasm_simulator* simulator. The *shots* parameter provides a count of the number of times the circuit will be executed to collect statistical results:
 ```
 backend_sim = Aer.get_backend('qasm_simulator')
 job_sim = execute(qc, backend_sim, shots=1024)
 
 ```
 
-7. Retrieve and display the output statevector from the simulation run:
+7. Retrieve and display the count of the number of times each bit pattern resulted from a simulation run:
 ```
 result_sim = job_sim.result()
 counts_sim = result_sim.get_counts(qc)
