@@ -18,9 +18,9 @@ Download and install the current version of VirtualBox. Download, install, and b
 
 1. Click the **Settings** icon in VirtualBox. In the **General** section, **Advanced** tab, select *Bidirectional* for **Shared Clipboard**. 
 
-1. Click **Network**. In the **Adapter 1** tab, select **Bridged Adapter** next to **Attached to:**.
+1. Click **Network**. In the **Adapter 1** tab, select *Bridged Adapter* next to **Attached to:**.
 
-1. Create a folder on the Windows disk named **share** in your **Documents** folder. Click **Shared Folders** in the **Settings** dialog for your Ubuntu VM. Click the icon to add a shared folder (it looks like a folder with a plus on it). Select the **share** folder you just created on the host computer and click **OK**.
+1. Create a folder on the Windows disk named *share* in your *Documents* folder. Click **Shared Folders** in the VirtualBox Manager **Settings** dialog for your Ubuntu VM. Click the icon to add a shared folder (it looks like a folder with a plus on it). Select the **share** folder you just created on the host computer and click **OK**.
 
 1. Click **OK** in the **Settings** dialog to close it.
 
@@ -28,11 +28,12 @@ Download and install the current version of VirtualBox. Download, install, and b
 
 1. After login has finished, open a terminal window by pressing *Ctrl+Alt+T*.
 
-1. Create a directory named *share* with the following command:
+1. In the VM terminal, create a directory named *share* with the following command:
 ```
 mkdir share
 ```
 
-1. Enter the following command to mount the shared folder:
-```sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share*
+1. Enter the following command in the VM terminal to mount the shared folder:
+```
+sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share
 ```
