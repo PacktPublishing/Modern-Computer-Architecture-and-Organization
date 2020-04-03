@@ -56,3 +56,8 @@ dir
 This screenshot shows the output of the *mem* command:
 
 ![FreeDOS screenshot](FreeDOS-screen.png)
+
+10. When you are finished using FreeDOS, close the VM with the following command at the FreeDOS prompt:
+```
+shutdown
+```
