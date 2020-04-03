@@ -33,7 +33,7 @@ Download and install the current version of VirtualBox. Download, install, and b
 mkdir share
 ```
 
-1. Enter the following command in the VM terminal to mount the shared folder:
+14. Enter the following command in the VM terminal to mount the shared folder:
 ```
 sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share
 ```
