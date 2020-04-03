@@ -42,7 +42,7 @@ Version: DOS
 Use an existing virtual hard disk file
 ```
 
-7. Select the VDI file in *~/VirtualBox VMs* with a name similar to *'FreeDOS 1.2.vdi'* and complete the VM configuration.
+7. Select the VDI file in *~/VirtualBox VMs* and complete the VM configuration.
 
 8. Click the **Start** icon in VirtualBox manager to start the FreeDOS VM.
 
