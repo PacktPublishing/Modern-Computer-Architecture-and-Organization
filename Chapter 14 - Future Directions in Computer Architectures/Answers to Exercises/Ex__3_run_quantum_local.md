@@ -11,7 +11,7 @@ Work through the example quantum program at https://qiskit.org/documentation/tut
 conda activate qiskitenv
 ```
 
-3. Start the Python interpreter and enter the following commands:
+3. Enter the following commands at the Anaconda prompt:
 ```
 python
 import numpy as np
@@ -47,7 +47,7 @@ q_2: |0>──────────┤ X ├
 >>>
 ```
 
-6. Run the circuit using the statevector simulator:
+6. Run the circuit on your computer using the statevector simulator:
 ```
 from qiskit import Aer
 backend = Aer.get_backend('statevector_simulator')
@@ -55,15 +55,9 @@ job = execute(circ, backend)
 
 ```
 
-7. Retrieve and display the results from the simulation run:
+7. Retrieve and display the output statevector from the simulation run:
 ```
 result = job.result()
-outputstate = result.get_statevector(circ, decimals=3)
-print(outputstate)
-```
-
-Display the simulation output statevector as follows:
-```
 >>> outputstate = result.get_statevector(circ, decimals=6)
 >>> outputstate
 array([0.707107+0.j, 0.      +0.j, 0.      +0.j, 0.      +0.j,
