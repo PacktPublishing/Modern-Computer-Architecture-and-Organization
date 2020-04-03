@@ -20,6 +20,6 @@ For the system of [Exercise 1](Ex__1_weather_sys_diagram.md), identify a suitabl
   * **Certified solution:** The Dragonfly Nano is certified by the FCC and wireless carriers for use on cellular networks.
   * **Development support:** Free development tools and online resources are available at https://os.mbed.com/platforms/MTS-Dragonfly-Nano/
   
-1. The diagram below shows the portion of the system implemented by the SoM within the dashed box:
+6. The dashed box in the following diagram indicates the portion of the system implemented by the Dragonfly Nano SoM:
 
 ![Weather station system diagram](weather_sys_diagram_som.png)
