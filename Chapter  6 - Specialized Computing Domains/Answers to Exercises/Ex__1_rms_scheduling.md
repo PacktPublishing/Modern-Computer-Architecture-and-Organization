@@ -15,7 +15,7 @@ Thread 2 | 100 | 500
 Thread 3 | 120 | 1000
 
 # Answer
-First, evalute the left side of the RMS formula using the data from the table:
+First, evaluate the left side of the RMS formula using the data from the table:
 
 ![RMS left side](src/Ex__1_rms_scheduling2.png)
 
