@@ -18,7 +18,7 @@ import numpy as np
 from qiskit import *
 ```
 
-4. Create a quantum circuit containg a three-qubit GHZ state and add measurements for each qubit:
+4. Create a quantum circuit containing a three-qubit GHZ state and add measurements for each qubit:
 ```
 circ = QuantumCircuit(3)
 # Add an H gate to qubit 0, creating superposition

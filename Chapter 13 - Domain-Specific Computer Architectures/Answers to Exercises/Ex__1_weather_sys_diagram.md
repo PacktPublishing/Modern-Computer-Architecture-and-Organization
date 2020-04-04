@@ -6,6 +6,6 @@ Draw a block diagram of the computing architecture for a system to measure and r
 # Answer
 Based on the performance requirements, a processor capable of entering a very low power state for minutes at a time should be able to operate from a moderately sized battery for days at a time. By only powering weather sensors when needed to take a measurement, and only powering the cellular transceiver when it is time to transmit data, power usage is minimized.
 
-The diagram below represents one possible configuation for this system:
+The diagram below represents one possible configuration for this system:
 
 ![Weather station system diagram](weather_sys_diagram.png)
