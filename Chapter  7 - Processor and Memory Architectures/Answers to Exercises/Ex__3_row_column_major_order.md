@@ -12,7 +12,7 @@ Since general-purpose computers perform many other tasks while running your code
 Are you able to determine a persistently superior array access method? Which order is fastest on your system using the language you selected? Note that the difference between column-major and row-major access order may not be dramatic – It might be just a few percent.
 
 # Answer
-See [Ex__3_row_column_major_order.py](src/Ex__3_row_column_major_order.py) for the python implementation of a solution of this exerciee. This program takes a few minutes to run on a Windows PC.
+See [Ex__3_row_column_major_order.py](src/Ex__3_row_column_major_order.py) for the python implementation of a solution of this exercise. This program takes a few minutes to run on a Windows PC.
 
 This is typical output from a run of this program:
 

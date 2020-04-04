@@ -10,4 +10,4 @@ Each cache line contains 64 (2<sup>6</sup>) bytes, which means the lower 6 bits 
 
 A 4GB address space requires 32-bit addresses. Subtracting the 9 bits in the set number and the 6 bits in the byte offset from the 32-bit address results in 32 - (9 + 6) = **17 bits in the cache tag.**
 
-The cache tage lies in the 17 most significant bits of the address, so **the range of these bits within a 32-bit address runs from bit 15 to bit 31.**
+The cache tag lies in the 17 most significant bits of the address, so **the range of these bits within a 32-bit address runs from bit 15 to bit 31.**
