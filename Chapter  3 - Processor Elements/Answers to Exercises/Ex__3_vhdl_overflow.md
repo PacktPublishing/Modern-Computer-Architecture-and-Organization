@@ -4,7 +4,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 Review the VHDL listing in the Arithmetic Logic Unit section in this chapter and determine if the logic for setting or clearing the V flag is correct for addition and subtraction operations. Check the results of adding 126+1, 127+1, -127+(-1), and -128+(-1).
 
 # Answer
-The listing of the VHDL implementation of a portion of a 6502-like ALU in this chapter implements the computation of the overflow floag with the following code:
+The listing of the VHDL implementation of a portion of a 6502-like ALU in this chapter implements the computation of the overflow flag with the following code:
 
     if (((LEFT(7) XOR result8(7)) = '1') AND
         ((right_op(7) XOR result8(7)) = '1')) then -- V flag

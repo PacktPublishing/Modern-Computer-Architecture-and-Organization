@@ -1,9 +1,12 @@
 ; Ex__5_16_bit_subtraction.asm
-; Try running this code at https://skilldrick.github.io/easy6502/
+; Try running this code at
+; https://skilldrick.github.io/easy6502/
 
 ; Set up the values to be subtracted
-; Remove the appropriate semicolons to select the bytes to subtract:
-; ($0001 - $0000) or ($0001 - $0001) or ($0001 - $00FF) or ($0000 - $0001)
+; Remove the appropriate semicolons to select the bytes to
+; subtract:
+; ($0001 - $0000) or ($0001 - $0001) or ($0001 - $00FF) or
+; ($0000 - $0001)
 
 LDA #$01
 ;LDA #$01

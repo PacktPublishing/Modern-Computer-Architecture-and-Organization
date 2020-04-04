@@ -1,8 +1,10 @@
 ; Ex__6_32_bit_addition.asm
-; Try running this code at https://skilldrick.github.io/easy6502/
+; Try running this code at
+; https://skilldrick.github.io/easy6502/
 
 ; Set up the values to be added
-; Remove the appropriate semicolons to select the bytes to add:
+; Remove the appropriate semicolons to select the bytes to
+; add:
 ; ($00000001 + $00000001) or ($0000FFFF + $00000001) or
 ; ($FFFFFFFE + $00000001) or ($FFFFFFFF + $00000001) 
 
@@ -38,7 +40,8 @@ STA $05
 STA $06
 STA $07
 
-; Add the two 32-bit values using absolute indexed addressing mode
+; Add the two 32-bit values using absolute indexed
+; addressing mode
 LDX #$00
 LDY #$04
 CLC

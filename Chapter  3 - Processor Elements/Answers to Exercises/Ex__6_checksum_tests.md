@@ -6,3 +6,5 @@ Write and execute a set of tests to verify correct operation of the checksum tes
 # Answer
 
 See [Ex__6_checksum_tests.asm](src/Ex__6_checksum_tests.asm)
+
+The checksum routine works for byte sequences with lengths from 1 to 255 bytes.
