@@ -23,8 +23,8 @@ remain popular in a format outwardly similar to the PCs of past decades. Today's
 however, are orders of magnitude more capable than the first generations of PCs in
 terms of computing power, memory size, disk space, graphics performance, and
 communication capability.
-Companies offering web services to hundreds of millions of users construct vast
 
+Companies offering web services to hundreds of millions of users construct vast
 warehouses filled with thousands of closely coordinated computer systems capable
 of responding to a constant stream of requests with extraordinary speed and precision.
 Machine learning systems are trained through the analysis of enormous quantities
