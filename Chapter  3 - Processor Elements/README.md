@@ -18,8 +18,6 @@ The following topics will be covered in this chapter:
 The following files are 6502 assembly language examples:
 File | Description
 ---- | -----------
-[add-with-no-carry.asm](src/add-with-no-carry.asm) | 8-bit addition with no Carry input.
-
 [immediate_addressing_mode.asm](src/immediate_addressing_mode.asm) | Immediate addressing mode.
 [absolute_addressing_mode.asm](src/absolute_addressing_mode.asm) | Absolute addressing mode.
 [absolute_indexed_addressing_mode.asm](src/absolute_indexed_addressing_mode.asm) | Absolute indexed addressing mode.
