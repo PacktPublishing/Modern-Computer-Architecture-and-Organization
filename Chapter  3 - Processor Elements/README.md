@@ -15,7 +15,7 @@ the structure of processor instruction sets. You will have learned the types of 
 instructions, why interrupt processing is necessary, and will understand I/O operations.
 
 The following topics will be covered in this chapter:
-* A generic processor
+* A simple processor
 * The instruction set
 * Addressing modes
 * Instruction categories
