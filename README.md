@@ -4,7 +4,7 @@ This book is intended for software developers, technical professionals, and stud
 
 # Contents
 
-[Chapter  1 - Introduction](Chapter%20%201%20-%20Introduction/README.md)
+[Chapter  1 - Introducing Computer Architecture](Chapter%20%201%20-%20Introducing%20Computer%20Architecture/README.md)
 
 [Chapter  2 - Digital Logic](Chapter%20%202%20-%20Digital%20Logic/README.md)
 

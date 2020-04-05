@@ -44,7 +44,7 @@ The following 6502 assembly code snippets appear in Table 1.4:
 
 File | Description
 ---- | -----------
-[add-with-no-carry.asmx](src/add-with-no-carry.asmx) | 8-bit addition with no Carry input.
+[add-with-no-carry.asm](src/add-with-no-carry.asm) | 8-bit addition with no Carry input.
 [add-with-carry.asm](src/add-with-carry.asm) | 8-bit addition with a Carry input.
 [subtract-with-no-borrow.asm](src/subtract-with-no-borrow.asm) | 8-bit subtraction with no Borrow input. 
 [subtract-with-borrow.asm](src/subtract-with-borrow.asm) | 8-bit subtraction with a Borrow input. 
