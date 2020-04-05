@@ -15,5 +15,11 @@ The following topics will be covered in this chapter:
 
 After completing this chapter, you will understand the architecture and capabilities of the RISC-V processor and its optional extensions. You will have learned the basics of the RISC-V instruction set and will understand how RISC-V can be tailored to support a variety of computer architectures, from low-end embedded systems, to warehouse-scale cloud server farms. You will also have learned how to implement a RISC-V processor in a low-cost FPGA board.
 
+# Chapter Files
+
+[hello_riscv.s](src/hello_riscv.s) is the RISC-V **hello** assembly language program.
+
+[full_adder.scala](src/full_adder.scala) is the implementation of a full adder in the Chisel domain-specific language within Scala.
+
 # Answers to Exercises
 [Answers to Exercises](Answers%20to%20Exercises/README.md)
