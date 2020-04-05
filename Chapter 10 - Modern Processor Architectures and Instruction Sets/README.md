@@ -13,7 +13,7 @@ The following topics will be covered in this chapter:
 * 32-bit ARM architecture and instruction set
 * 64-bit ARM architecture and instruction set
 
-# Chapter files
+# Chapter Files
 
 [hello_x86.asm](src/hello_x86.asm) is the 32-bit x86 **hello** assembly language program.
 

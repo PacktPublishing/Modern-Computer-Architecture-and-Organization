@@ -22,7 +22,7 @@ The following topics will be covered in this chapter:
 * Interrupt processing
 * Input/output operations
 
-# Chapter files
+# Chapter Files
 
 [ALU.vhdl](src/ALU.vhdl) is the VHDL implementation of the 6502-like ALU discussed in the *Arithmetic logic unit* section of Chapter 3.
 

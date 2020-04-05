@@ -13,7 +13,7 @@ We will cover the following topics:
 * Processes and threads
 * Multiprocessing
 
-# Chapter files
+# Chapter Files
 
 [bcdedit output](src/bcdedit_output.md) is an example of the BCD (boot configuration data) information stored on a Windows 10 system.
 

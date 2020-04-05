@@ -23,7 +23,7 @@ The following topics will be covered in this chapter:
 * Sequential logic
 * Hardware description languages
 
-# Chapter files
+# Chapter Files
 
 [FullAdder.vhdl](src/FullAdder.vhdl) is the VHDL implementation of the full adder circuit shown in Figure 2.15.
 

@@ -38,7 +38,7 @@ including a close look at the 6502 microprocessor. These topics will be covered:
 * Moore’s law
 * Computer architecture
 
-# Chapter files
+# Chapter Files
 
 The following 6502 assembly code snippets appear in Table 1.4:
 
