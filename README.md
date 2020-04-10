@@ -4,13 +4,13 @@ This book is intended for software developers, technical professionals, and stud
 
 # Contents
 
-[Chapter  1 - Introducing Computer Architecture](Chapter%20%201%20-%20Introducing%20Computer%20Architecture/README.md)
+[Chapter  1 - Introducing Computer Architecture](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter01/README.md)
 
-[Chapter  2 - Digital Logic](Chapter%20%202%20-%20Digital%20Logic/README.md)
+[Chapter  2 - Digital Logic](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter02/README.md)
 
-[Chapter  3 - Processor Elements](Chapter%20%203%20-%20Processor%20Elements/README.md)
+[Chapter  3 - Processor Elements](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter03/README.md)
 
-[Chapter  4 - Computer System Components](Chapter%20%204%20-%20Computer%20System%20Components/README.md)
+[Chapter  4 - Computer System Components](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter04/README.md)
 
 [Chapter  5 - Hardware-Software Interface](Chapter%20%205%20-%20Hardware-Software%20Interface/README.md)
 
