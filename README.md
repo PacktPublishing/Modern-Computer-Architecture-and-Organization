@@ -12,22 +12,22 @@ This book is intended for software developers, technical professionals, and stud
 
 [Chapter  4 - Computer System Components](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter04/README.md)
 
-[Chapter  5 - Hardware-Software Interface](Chapter%20%205%20-%20Hardware-Software%20Interface/README.md)
+[Chapter  5 - Hardware-Software Interface](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter05/README.md)
 
-[Chapter  6 - Specialized Computing Domains](Chapter%20%206%20-%20Specialized%20Computing%20Domains/README.md)
+[Chapter  6 - Specialized Computing Domains](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter06/README.md)
 
-[Chapter  7 - Processor and Memory Architectures](Chapter%20%207%20-%20Processor%20and%20Memory%20Architectures/README.md)
+[Chapter  7 - Processor and Memory Architectures](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter07/README.md)
 
-[Chapter  8 - Performance-Enhancing Techniques](Chapter%20%208%20-%20Performance-Enhancing%20Techniques/README.md)
+[Chapter  8 - Performance-Enhancing Techniques](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter08/README.md)
 
-[Chapter  9 - Specialized Processor Extensions](Chapter%20%209%20-%20Specialized%20Processor%20Extensions/README.md)
+[Chapter  9 - Specialized Processor Extensions](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter09/README.md)
 
-[Chapter 10 - Modern Processor Architectures and Instruction Sets](Chapter%2010%20-%20Modern%20Processor%20Architectures%20and%20Instruction%20Sets/README.md)
+[Chapter 10 - Modern Processor Architectures and Instruction Sets](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter10/README.md)
 
-[Chapter 11 - The RISC-V Architecture and Instruction Set](Chapter%2011%20-%20The%20RISC-V%20Architecture%20and%20Instruction%20Set/README.md)
+[Chapter 11 - The RISC-V Architecture and Instruction Set](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter11/README.md)
 
-[Chapter 12 - Processor Virtualization](Chapter%2012%20-%20Processor%20Virtualization/README.md)
+[Chapter 12 - Processor Virtualization](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter12/README.md)
 
-[Chapter 13 - Domain-Specific Computer Architectures](Chapter%2013%20-%20Domain-Specific%20Computer%20Architectures/README.md)
+[Chapter 13 - Domain-Specific Computer Architectures](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter13/README.md)
 
-[Chapter 14 - Future Directions in Computer Architectures](Chapter%2014%20-%20Future%20Directions%20in%20Computer%20Architectures/README.md)
+[Chapter 14 - Future Directions in Computer Architectures](https://github.com/PacktPublishing/Modern-Computer-Architecture-and-Organization/blob/master/Chapter14/README.md)
