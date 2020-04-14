@@ -8,9 +8,9 @@ Follow these steps to implement the 4-bit adder:
 
 1. Double-click the **Vivado 2019.2** (or similar) icon to start Vivado.
 2. Click **Create Project** in the Vivado main dialog.
-3. Click through and accept the default project name and location.
+3. Click **Next** to accept the default project name and location.
 4. Select **RTL Project**, the default project type.
-5. On the **Default Part** page, select the **Boards** tab. Type **Arty** in the search field and select the **Arty A7-35** then click **Next**.
+5. On the **Default Part** page, select the **Boards** tab. Type **Arty** in the search field and select the **Arty A7-35** then click **Next**. If **Arty** does not appear after searching, click **Update Board Repositories** and then search again.
 6. Click **Finish** to create the project.
 7. Click **Add Sources** in the **Project Manager** panel, select **Add or create design sources**, and add **[Ex__4_adder4.vhdl](src/Ex__4_adder4.vhdl)** and **[Ex__4_fulladder.vhdl](src/Ex__4_fulladder.vhdl)** then click **Finish**.
 8. Expand the tree in the **Design Sources** window in the **Project Manager** dialog and locate the two files you added. Double-click each of them and expand the source code window to view the code.

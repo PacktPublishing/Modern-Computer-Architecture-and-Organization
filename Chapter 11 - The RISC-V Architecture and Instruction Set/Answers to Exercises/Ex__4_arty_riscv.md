@@ -42,7 +42,6 @@ sudo apt-get install sbt
 sudo apt-get install git make autoconf g++ flex bison
 git clone http://git.veripool.org/git/verilator
 cd verilator
-git checkout -b verilator_3_922 verilator_3_922
 unset VERILATOR_ROOT
 autoconf
 ./configure

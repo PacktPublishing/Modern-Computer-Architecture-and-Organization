@@ -13,7 +13,7 @@ Follow these steps to test the 4-bit adder project created in Exercise 4:
 4. Expand the tree in the **Simulation Sources** window in the **Project Manager** dialog and locate the file you added. Double-click the file and expand the source code window to view the code. Observe the loop with 256 test cases in the code.
 5. Click **Run Simulation** in the Vivado main dialog **Project Manager** section, then select **Run behavioral simulation**.
 6. Wait for the simulation to complete, then expand the windows with the timing diagram (probably labeled **Untitled 1**).
-7. Use the magnifying class icons and the window horizontal scroll bar to view the test cases. Uh-oh! The run stops after 1000ns, which isn't enough time for all of the tests to execute.
+7. Use the magnifying class icon and the window horizontal scroll bar to view the test cases. Uh-oh! The run stops after 1000ns, which isn't enough time for all of the tests to execute.
 8. Right-click **Simulation** in the **Project Manager** panel, then select **Simulation Settings...**
 9. Click the **Simulation** tab and change the value for **xsim.simulate.runtime** to **3000ns**. Click **OK**.
 10. Click the **X** on the **Simulation** window to close the simulation.
