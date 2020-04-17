@@ -6,9 +6,11 @@ Program an Arty A7-35T board with a RISC-V processor image. Build and run the **
 # Answer
 The instructions in this answer are based on information provided at https://github.com/sifive/freedom, with some updates to work with more recent versions of libraries. Several of these steps are quite time consuming and the entire process may take several hours.
 
+Steps 1-11 build a RISC-V firmware image in a file named **E300ArtyDevKitFPGAChip.mcs**. If you prefer to skip these steps, you can download [E300ArtyDevKitFPGAChip.mcs](src/E300ArtyDevKitFPGAChip.mcs) directly and continue at step 12.
+
 1. If you already have a Linux system available for this exercise, you can skip to step 2. Otherwise, begin by downloading and installing **VirtualBox** from https://www.virtualbox.org/wiki/Downloads. Download an operating system image from OSBoxes at https://www.osboxes.org/virtualbox-images/. Select the most recent 64-bit Ubuntu VDI image. Follow the instructions at https://www.osboxes.org/guide/ to set up the virtual machine image and get logged in to Linux.
 
-1. Install and license Vivado in the Linux virtual machine. See the solution to [Chapter 2, Exercise 3](../../Chapter%20%202%20-%20Digital%20Logic/Answers%20to%20Exercises/Ex__3_vhdl_setup.md) for Vivado installation instructions for Windows. You can expect some minor differences because you are now installing on Linux.
+1. Install and license Vivado in the Linux virtual machine. See the solution to [Chapter 2, Exercise 3](../../Chapter02/Answers%20to%20Exercises/Ex__3_vhdl_setup.md) for Vivado installation instructions for Windows. You can expect some minor differences because you are now installing on Linux.
 
 1. Execute the following commands to update the Linux operating system and install the SiFive RISC-V development kit:
 ```
