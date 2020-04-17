@@ -54,7 +54,7 @@ sudo make install
 sudo apt install scala
 ```
 
-8. Download the RISC-V toolchain from https://www.sifive.com/products/tools/. Select the **GNU Embedded Toolchain for Ubuntu**. Unzip the file as follows:
+8. Download the RISC-V toolchain from https://www.sifive.com/boards/. Select the **GNU Embedded Toolchain for Ubuntu**. Unzip the file as follows:
 ```
 cd ~
 tar xvf Downloads/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14.tar.gz
