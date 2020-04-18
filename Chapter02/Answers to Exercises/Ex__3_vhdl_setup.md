@@ -4,7 +4,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 Search the internet for free VHDL development software suites that include a simulator. Get one of these suites, set it up, and build any simple demo projects that come with the suite to ensure it is working properly.
 
 # Answer
-Some freely available VHDL development suites are listed below:
+Some freely available VHDL development suites are as follows:
 * Xilinx Vivado Design Suite is available at https://www.xilinx.com/support/download.html
 * Intel® Quartus® Prime Software Lite Edition is available at  https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/download.html
 * The open source GHDL simulator for VHDL is available at https://github.com/ghdl/ghdl
