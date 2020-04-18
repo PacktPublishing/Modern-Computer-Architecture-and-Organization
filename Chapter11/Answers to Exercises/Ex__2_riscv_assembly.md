@@ -37,7 +37,7 @@ msg:
     .asciz "Hello, Computer Architect!\n"
 ```
 
-1. Perform a clean and then rebuild the project (press *Ctrl+9* to initiate the clean operation).
+4. Perform a clean and then rebuild the project (press *Ctrl+9* to initiate the clean operation).
 
 1. Select **Debug** under the **Run** menu.
 
