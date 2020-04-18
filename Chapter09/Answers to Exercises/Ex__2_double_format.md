@@ -31,7 +31,7 @@ This is the output of the program:
  Double |    1e-308 | 000730D67819E8D2 |   0  |  -1022   | 0.449423
  Double |    1e-309 | 0000B8157268FDAF |   0  |  -1022   | 0.044942
 ```
-Some notes about these results:
+These are some notes about the results:
 * Zero in IEEE 754 can have a positive or negative sign. The zero passed to the **print_double** function in the second row of the table containing the **Double** type is preceded with a minus sign, but the sign is ignored during the conversion to floating-point.
 * The value **1.0e309** is not shown because using it causes a compile-time error: floating constant is out of range.
 * Zero is represented as a mantissa of zero and a biased exponent of zero.

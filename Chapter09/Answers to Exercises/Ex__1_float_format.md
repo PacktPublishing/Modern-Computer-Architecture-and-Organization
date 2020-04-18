@@ -19,7 +19,7 @@ This is the output of the program:
  Float  |     1e-38 |     006CE3EE     |   0  |   -126   | 0.850706
  Float  |     1e-39 |     000AE398     |   0  |   -126   | 0.085071
 ```
-Some notes about these results:
+These are some notes about the results:
 * Zero in IEEE 754 can have a positive or negative sign. The zero passed to the **print_float** function in the second row of the table is preceded with a minus sign, but the sign is ignored during the conversion to floating-point.
 * The value **1.0e39f** is not shown because using it causes a compile-time error: floating constant is out of range.
 * Zero is represented as a mantissa of zero and a biased exponent of zero.
