@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
 # Chapter 12, Exercise 3
 
-Create two separate copies of your Ubuntu guest machine in your host system’s VirtualBox environment. Configure both Ubuntu guests to connect to the VirtualBox internal network. Set up the two machines with compatible Internet Protocol addresses. Verify each of the machines can receive a response from the other using the *ping* command. By completing this exercise, you will have configured a virtual network within your virtualized environment.
+Create two separate copies of your Ubuntu guest machine in your host system’s VirtualBox environment. Configure both Ubuntu guests to connect to the VirtualBox *internal* network. Set up the two machines with compatible Internet Protocol addresses. Verify each of the machines can receive a response from the other using the *ping* command. By completing this exercise, you will have configured a virtual network within your virtualized environment.
 
 # Answer
 1. In your host system VirtualBox, open the **Settings** dialog for the Ubuntu VM you set up in [Exercise 1](Ex__1_vbox_ubuntu.md) and select the *Network* settings. Set the **Attached to:** network type to *Internal*, then click **OK**.
@@ -22,7 +22,7 @@ VBoxManage dhcpserver add --netname intnet --ip 192.168.10.1 --netmask 255.255.2
 
 1. Login to one of the running VMs. Click the downward facing triangle in the upper right corner of the screen. Select **Wired Connected** from the dialog, then click **Wired Settings**.
 
-1. Click the gear icon in the **Wired** section of the **Settings** dialog. The machine's IP address will be displayed. It should be one of the two IP addresses listed above.
+1. Click the gear icon in the **Wired** section of the **Settings** dialog. The machine's IP address will be displayed. It should be one of the two IP addresses listed in *step 5*.
 
 1. Open a terminal window in the VM (press *Ctrl+Alt+T*)
 
@@ -46,4 +46,4 @@ rtt min/avg/max/mdev = 0.268/0.344/0.437/0.065 ms
 osboxes@osboxes:~$ 
 ```
 
-10. Login to the second Ubuntu VM and repeat the steps above to display its IP address and ping the first Ubuntu VM.
+10. Login to the second Ubuntu VM and repeat *steps 6-9* to display its IP address and ping the first Ubuntu VM.

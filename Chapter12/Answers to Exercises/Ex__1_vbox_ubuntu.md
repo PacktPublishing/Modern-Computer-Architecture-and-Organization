@@ -14,7 +14,7 @@ Download and install the current version of VirtualBox. Download, install, and b
 
 1. In the **Memory size** dialog, accept the default memory size (or increase it if you prefer).
 
-1. In the **Hard disk** dialog, select **Use an existing virtual hard disk file**. Click the browse button (it looks like a folder), then click the **Add** button in the **Hard disk selector** dialog. Navigate to the *.vdi* file you downloaded and select **Open**. Click **Create** to finish creating the virtual machine.
+1. In the **Hard disk** dialog, select **Use an existing virtual hard disk file**. Click the **Browse** button (it looks like a folder), then click the **Add** button in the **Hard disk selector** dialog. Navigate to the *.vdi* file you downloaded and select **Open**. Click **Create** to finish creating the virtual machine.
 
 1. Click the **Settings** icon in VirtualBox. In the **General** section, **Advanced** tab, select *Bidirectional* for **Shared Clipboard**. 
 
