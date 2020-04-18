@@ -3,7 +3,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 
 Install the free Android Studio integrated development environment, available at https://developer.android.com/studio/. After installation is complete, open the Android Studio IDE and select **SDK Manager** under the **Tools** menu. In the **Settings for New Projects** dialog, select the **SDK Tools** tab and check the **NDK** option, which may say **NDK (Side by side)**. Complete the installation of the NDK (NDK means native development kit).
 
-Locate the following files under the SDK installation directory (the default location is under %LOCALAPPDATA%\Android) and add their directories to your PATH environment variable: **arm-linux-androideabi-as.exe** and **adb.exe**. Hint: The following command works for one version of Android Studio (your path may vary):
+Locate the following files under the SDK installation directory (the default location is under %LOCALAPPDATA%\Android) and add their directories to your PATH environment variable: **arm-linux-androideabi-as.exe** and **adb.exe**. Hint: The following command works for one specific version of Android Studio (your path may vary):
 ```
 set PATH=%PATH%;%LOCALAPPDATA%\Android\Sdk\ndk\20.1.5948944\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin;%LOCALAPPDATA%\Android\Sdk\platform-tools
 ```

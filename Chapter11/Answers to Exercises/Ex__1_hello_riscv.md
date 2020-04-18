@@ -5,20 +5,20 @@ Visit https://www.sifive.com/boards/ and download *Freedom Studio*. Freedom Stud
 
 
 # Answer
-Install Freedom Studio as described above. Note that the directory path for your workspace cannot include spaces.
+Install Freedom Studio as described. Note that the directory path for your workspace cannot include spaces.
 
 Start Freedom Studio.
 
-In the **Welcome to SiFive FreedomStudio! Let's Get Started...** dialog, select **I want to create a new Freedom E SDK Project**
+1. In the **Welcome to SiFive FreedomStudio! Let's Get Started...** dialog, select **I want to create a new Freedom E SDK Project**
 
-In the **Create a Freedom E SDK Project** dialog, select **qemu-sifive-u54** as the target.
+1. In the **Create a Freedom E SDK Project** dialog, select **qemu-sifive-u54** as the target.
 
-Select the **hello** example program.
+1. Select the **hello** example program.
 
-Click the **Finish** button.
+1. Click the **Finish** button.
 
-After the build completes, the **Edit Configuration** dialog box will appear.
+1. After the build completes, the **Edit Configuration** dialog box will appear.
 
-Click **Debug** to start the program in the emulator debug environment.
+1. Click **Debug** to start the program in the emulator debug environment.
 
-Single-step through the program and verify the text *Hello, World!* appears in the Console window.
+1. Single-step through the program and verify the text *Hello, World!* appears in the Console window.

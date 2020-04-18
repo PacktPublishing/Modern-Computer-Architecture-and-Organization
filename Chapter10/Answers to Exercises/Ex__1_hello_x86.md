@@ -11,7 +11,7 @@ Build the program using the command shown in the **x86 assembly language** secti
 
 
 # Answer
-Install Visual Studio Community as described above, then install the **Desktop development with C++** workload within Visual Studio Community.
+Install Visual Studio Community as described in the question, then install the **Desktop development with C++** workload within Visual Studio Community.
 
 Create your assembly language source file. See [Ex__1_hello_x86.asm](src/Ex__1_hello_x86.asm) for an example solution to this exercise.
  
