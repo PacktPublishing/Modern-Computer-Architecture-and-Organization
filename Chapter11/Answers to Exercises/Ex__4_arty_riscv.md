@@ -70,7 +70,7 @@ export PATH=${PATH}:/tools/Xilinx/Vivado/2019.2/bin
 
 10. Download the Digilent board files from https://github.com/Digilent/vivado-boards/archive/master.zip. Open the zip file in the Linux File Manager and navigate to the /vivado-boards-master/new/board_files/ directory. Copy the entire contents of this directory. Paste the copied contents into /tools/Xilinx/Vivado/2019.2/data/boards/board_files.
 
-11. The RISC-V design is programmed in the [Chisel](https://www.chisel-lang.org/) language. The first **make** command below compiles the RISC-V chisel code into Verilog HDL. The second **make** command uses Vivado to compile the Verilog into an FPGA binary image. Build the Arty A7-35T RISC-V image with these commands:
+11. The RISC-V design is programmed in the [Chisel](https://www.chisel-lang.org/) language. The first **make** command, as follows, compiles the RISC-V chisel code into Verilog HDL. The second **make** command uses Vivado to compile the Verilog into an FPGA binary image. Build the Arty A7-35T RISC-V image with these commands:
 ```
 cd ~/freedom
 make -f Makefile.e300artydevkit verilog
