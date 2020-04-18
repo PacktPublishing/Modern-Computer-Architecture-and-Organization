@@ -34,13 +34,13 @@ Job Status: job has successfully run
 result_exp = job_exp.result()
 ```
 
-6. Retrieve and display the count of the number of times each bit pattern resulted from a quantum computer run. Approximately 50% of the time the output bit string for this circuit should be 000 and the other 50% of the time it should be 111. However, these systems are **noisy, intermediate-scale quantum (NISQ)** computers:
+6. Retrieve and display the count of the number of times each bit pattern resulted from a quantum computer run:
 ```
 counts_exp = result_exp.get_counts(qc)
 counts_exp
 ```
 
-You should see results similar (but not identical) to these:
+Approximately 50% of the time the output bit string for this circuit should be 000 and the other 50% of the time it should be 111. However, these systems are **noisy, intermediate-scale quantum (NISQ)** computers. You should see results similar (but not identical) to these:
 ```
 >>> counts_exp
 {'000': 459, '010': 28, '011': 35, '110': 17, '111': 428, '101': 23, '100': 22, '001': 12}
