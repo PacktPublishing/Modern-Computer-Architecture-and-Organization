@@ -3,7 +3,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 Run the appropriate command on your computer to display the currently running processes. What is the PID of the process you are using to run this command?
 
 # Answer
-In Windows, open a command prompt (type **command** in the Windows Search box to locate the application) and type the **tasklist** command as shown below.
+In Windows, open a command prompt (type **command** in the Windows Search box to locate the application) and type the **tasklist** command as follows.
 
 ```
 C:\>tasklist
