@@ -12,5 +12,5 @@ Follow these steps to test the 4-bit adder project created in Exercise 4:
 4. Expand the tree in the **Simulation Sources** window in the **Project Manager** dialog and locate the file you added. Double-click the file and expand the source code window to view the code. Observe the six test cases present in the code.
 5. Click **Run Simulation** in the Vivado main dialog **Project Manager** section, then select **Run behavioral simulation**.
 6. Wait for the simulation to complete, then expand the windows with the timing diagram (probably labeled **Untitled 1**).
-7. Use the magnifying class icon and the window horizontal scroll bar to view the six test cases in the first 60ns of execution. Determine if the sum and carry for each addition operation are correct. You can drag the yellow marker to update the information in the **Value** column.
+7. Use the magnifying class icons and the window horizontal scroll bar to view the six test cases in the first 60ns of execution. Determine if the sum and carry for each addition operation are correct. You can drag the yellow marker to update the information in the **Value** column.
 8. This completes the exercise. You may close Vivado.

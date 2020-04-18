@@ -3,10 +3,10 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 
 Using your favorite programming language, develop a simulation of a single-digit decimal adder that operates in the same manner as in Babbage’s Analytical Engine. First, prompt the user for two digits in the range 0-9: the addend and the accumulator. Display the addend, the accumulator, and the carry, which is initially zero. Perform a series of cycles as follows: 
 
-a. If the addend is zero, display the values of the addend, accumulator, and carry and terminate the program. 
-b. Decrement the addend by one and increment the accumulator by one. 
-c. If the accumulator incremented from nine to zero, increment the carry. 
-d. Go back to step a. 
+1. If the addend is zero, display the values of the addend, accumulator, and carry and terminate the program. 
+1. Decrement the addend by one and increment the accumulator by one. 
+1. If the accumulator incremented from nine to zero, increment the carry. 
+1. Go back to step 1. 
 
 Test your code with these sums: 0+0, 0+1, 1+0, 1+2, 5+5, 9+1, and 9+9.
 
