@@ -12,7 +12,7 @@ For the system of [Exercise 1](Ex__1_weather_sys_diagram.md), identify a suitabl
 
 1. The Dragonfly Nano documentation states that when transmitting a small amount of data each day, the device can run for years on two AA size batteries.
 
-1. The reasons for selecting the Dragonfly Nano for this application are:
+1. The reasons for selecting the Dragonfly Nano for this application are as follows:
   * **Cost:** While a price over $US100 is high for a microprocessor board, the integration of the cellular modem directly accomplishes a key system design goal.
   * **Low power consumption:** Depending on the power requirements for the weather sensors, a small solar panel combined with a small rechargeable battery should easily satisfy system power requirements.
   * **Environmental compatibility:** The temperature range specification for the SoM is -40° to +85° C (-40° to +185° F), which should support operation anywhere in the world. The relative humidity tolerance range (20% to 90% RH, non-condensing) will require installation in a weatherproof enclosure.
