@@ -5,9 +5,7 @@ Visit https://www.sifive.com/boards/ and download *Freedom Studio*. Freedom Stud
 
 
 # Answer
-Install Freedom Studio as described. Note that the directory path for your workspace cannot include spaces.
-
-Start Freedom Studio.
+Install Freedom Studio as described. Note that the directory path for your workspace cannot include spaces. Start Freedom Studio.
 
 1. In the **Welcome to SiFive FreedomStudio! Let's Get Started...** dialog, select **I want to create a new Freedom E SDK Project**
 
