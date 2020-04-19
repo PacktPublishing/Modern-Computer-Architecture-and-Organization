@@ -1,6 +1,22 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 
-This book is intended for software developers, technical professionals, and students interested in learning the underlying architectural structure of the computer systems we use every day. Whether you write Python code, are studying computer engineering, or would just like to gain a thorough understanding of how computers function at the lowest levels, this book is for you.
+This book presents the key technologies and components employed in modern processor
+and computer architectures and discusses how various architectural decisions result in
+computer configurations optimized for specific needs.
+
+To understate the situation quite drastically, modern computers are complicated devices.
+Yet, when viewed in a hierarchical manner, the functions of each level of complexity
+become clear. We will cover a great many topics in these chapters and will only have
+the space to explore each of them to a limited degree. My goal is to provide a coherent
+introduction to each important technology and subsystem you might find in a modern
+computing device and explain its relationship to other system components.
+
+This book is intended for software developers, computer engineering students, system
+designers, computer science professionals, reverse engineers, and anyone else seeking to
+understand the architecture and design principles underlying all types of modern computer
+systems from tiny embedded devices to smartphones to warehouse-sized cloud server farms.
+Readers will also explore the directions these technologies are likely to take in the coming
+years. A general understanding of computer processors is helpful but is not required.
 
 # Contents
 

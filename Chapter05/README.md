@@ -1,14 +1,29 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 5 - Hardware-Software Interface
 
-The vast majority of computer software is not written at the processor instruction level, in assembly language. Instead, each application you work with on a daily basis was written in a one high-level programming language or another, using a pre-built library of capabilities that the application programmers extended during the software development process. Practical programming environments, consisting of programming languages and their associated libraries, must offer many high-level services such as disk I/O, network communications, and interactions with users that are easily accessible from programming languages. 
+The vast majority of computer software is not written at the processor instruction level in
+assembly language. Most of the applications we work with on a daily basis are written in
+one high-level programming language or another, using a pre-built library of capabilities
+that the application programmers extended during the software development process.
+Practical programming environments, consisting of high-level languages and their
+associated libraries, offer many services, including disk input/output (I/O), network
+communication, and interactions with users, all easily accessible from program code.
 
-This chapter describes the software layers that implement these features beginning at the level of processor instructions in device drivers. Several key aspects of operating systems will be covered in this chapter including booting, multithreading, and multiprocessing. After completing this chapter, you will have a broad understanding of how the multiple levels of system software interact with computer hardware components to perform useful communication with peripheral devices and with users.
+This chapter describes the software layers that implement these features, beginning at the
+level of processor instructions in device drivers. Several key aspects of operating systems
+will be covered in this chapter, including booting, multithreading, and multiprocessing.
+
+After completing this chapter, you will understand the services provided by operating
+systems and the capabilities provided in **Basic Input/Output System (BIOS)** and
+**Unified Extensible Firmware Interface (UEFI)** firmware. You will have learned how
+execution threads function at the processor level and how multiple processors coordinate
+within a single computer system. You will also have a broad understanding of the process
+of booting into an operating system, beginning with the first instruction executed.
 
 We will cover the following topics:
 * Device drivers
-* BIOS
-* The boot process
+* BIOS and UEFI
+* Th e boot process
 * Operating systems
 * Processes and threads
 * Multiprocessing
