@@ -23,7 +23,7 @@ of booting into an operating system, beginning with the first instruction execut
 We will cover the following topics:
 * Device drivers
 * BIOS and UEFI
-* Th e boot process
+* The boot process
 * Operating systems
 * Processes and threads
 * Multiprocessing
