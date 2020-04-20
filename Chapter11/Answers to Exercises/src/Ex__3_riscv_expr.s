@@ -32,9 +32,12 @@ main:
     la      a0, msg2
     jal     ra, puts
 
-    # Restore the return address and sp, and return to caller
+    # Restore the return address and sp
     ld      ra, 0(sp)
     addi    sp, sp, 16
+
+    # Set the exit code to zero and return to caller
+    addi	a0, zero, 0
     ret
 
 # Convert the low 4 bits of a0 to an ascii character in a0
