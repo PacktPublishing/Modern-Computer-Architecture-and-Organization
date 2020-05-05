@@ -6,7 +6,7 @@ Write an x64 assembly language program that computes the following expression an
 # Answer
 Create your assembly language source file. See [Ex__4_expr_x64.asm](src/Ex__4_expr_x64.asm) for an example solution to this exercise.
  
-Open the **x86 Native Tools Command Prompt for VS 2019** and change to the directory containing your source file.
+Open the **x64 Native Tools Command Prompt for VS 2019** and change to the directory containing your source file.
 
 Build the executable with this command:
 ```
