@@ -10,7 +10,7 @@ Open the **x86 Native Tools Command Prompt for VS 2019** and change to the direc
 
 Build the executable with this command:
 ```
-ml /Fl /Zi /Zd Ex__1_hello_x86.asm
+ml /Fl /Zi /Zd Ex__2_expr_x86.asm
 ```
 
 This is the output produced by the program:
