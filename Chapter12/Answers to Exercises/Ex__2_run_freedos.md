@@ -19,12 +19,12 @@ sudo apt update && sudo apt install virtualbox-6.1
 sudo apt-get install p7zip-full
 ```
 
-4. Download a VirtualBox virtual disk image for FreeDOS from https://www.osboxes.org/freedos/. Perform the following steps (assuming the downloaded file is in the *~/Downloads* directory, and the FreeDOS image file name is *1-2.7.z*):
+4. Download a VirtualBox virtual disk image for FreeDOS from https://www.osboxes.org/freedos/. Perform the following steps (assuming the downloaded file is in the *~/Downloads* directory, and the FreeDOS image file name is *1-2.7z*):
 ```
 cd
 mkdir 'VirtualBox VMs'
 cd 'VirtualBox VMs'
-mv ~/Downloads/1-2.7.z .
+mv ~/Downloads/1-2.7z .
 7z x 1-2.7z
 ```
 
