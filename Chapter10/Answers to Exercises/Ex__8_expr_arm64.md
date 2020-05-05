@@ -1,5 +1,5 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
-# Chapter 10, Exercise 6
+# Chapter 10, Exercise 8
 
 Write a 64-bit ARM assembly language program that computes the following expression and prints the result as a hexadecimal number: {(129 – 66) &times; (445 + 136)} &div; 3. As part of this program, create a callable function to print one byte as two hex digits.
 
